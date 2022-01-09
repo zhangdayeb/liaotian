@@ -9,7 +9,7 @@
                        :showArrow="true"
                        :badge-text="show_tips"
                        thumb="/static/theme/default/push/circle.png"
-                       @click="goPath('../push/circle')"/>
+                       @click="goPath_v2('../push/circle')"/>
           <!--  #ifdef  APP-PLUS -->
         <uni-list-item title="扫一扫"
                        :show-arrow="false"
@@ -91,6 +91,13 @@ export default {
               }); */
           }
       },
+	  goPath_v2(path){
+	      if(path){
+	          uni.navigateTo({
+	              url: path
+	          });
+	      }
+	  },
       goScanCode () {
           // uni.navigateTo({
           //   url: '../chat/videoCall'
