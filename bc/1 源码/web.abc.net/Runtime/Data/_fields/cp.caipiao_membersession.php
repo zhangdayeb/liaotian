@@ -1,0 +1,1 @@
+a:8:{i:0;s:3:"sid";i:1;s:6:"userid";i:2;s:8:"username";i:3;s:9:"sessionid";i:4;s:2:"ip";i:5;s:4:"time";s:3:"_pk";s:3:"sid";s:5:"_type";a:6:{s:3:"sid";s:7:"int(11)";s:6:"userid";s:7:"int(11)";s:8:"username";s:8:"char(60)";s:9:"sessionid";s:8:"char(32)";s:2:"ip";s:8:"char(20)";s:4:"time";s:7:"int(11)";}}

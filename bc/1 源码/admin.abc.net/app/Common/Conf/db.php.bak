@@ -1,0 +1,12 @@
+<?php
+return [
+	'DB_TYPE'               => 'mysql',孤僻开发 www.gupi888.com
+	'DB_HOST'               => 'localhost',
+	'DB_NAME'               => 'daf789',
+	'DB_USER'               => 'cz1i4mzxgpx4urw9',
+	'DB_PWD'                => 'TFWsDa^wHlTxFvY7bTab0fnQpCkaZT',
+	'DB_PREFIX'             => 'caipiao_',
+	'DB_PORT'               => '3306',
+	'DB_DEBUG'              => false,
+	'DB_PARAMS'             => [\PDO::ATTR_CASE => \PDO::CASE_NATURAL],
+];

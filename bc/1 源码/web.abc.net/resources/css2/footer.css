@@ -1,0 +1,196 @@
+@charset 'utf-8';
+
+.footer{
+	width:100%;
+	background:#fff;
+}
+.footer_main{
+	background: #f8f8f8;
+	border-top:1px solid #dce1e5;
+	height:160px;
+	border-bottom:1px solid #dce1e5;
+	padding:20px 0;
+}
+.footer_common_title h2{
+	font-size:20px;
+	font-weight:bold;
+	margin:0;
+}
+.footer_common_title h2 span{
+	font-size:14px;
+	font-weight:normal;
+	color:#b8b8b8;
+}
+.footer_l_content{
+	padding:25px 0;
+	position:relative;
+}
+.footer_l_content img{
+	width:90px;
+	height:56px;
+}
+.footer_l_content p{
+	padding-top:10px;
+	padding-left:15px;
+}
+.footer_l_content p span{
+	display: block;
+	font-size:14px;
+}
+.footer_middle{
+	width:440px;
+	padding-left:25px;
+	height:118px;
+}
+.footer_middle,.footer_right{
+	border-left:1px solid #ebebeb;
+}
+.footer_m_content {
+	padding:12px 0;
+}
+.footer_m_content .bar{
+	width:180px;
+	height:15px;
+	border-radius:15px;
+	background: #e6e6e6;
+	position:relative;
+	display:inline-block;
+	margin-top:10px;
+	margin-left:5px;
+}
+.footer_m_content .bar span{
+	height:15px;
+	border-radius:15px;
+	position: absolute;
+}
+.enter{
+	height:34px;
+	line-height:34px;
+}
+.enter .miao{
+	color:#a6a6a6;
+	margin-left:5px;
+}
+.enter .miao em{
+	font-size:26px;
+	color:#666;
+	margin-left:5px;
+}
+.bar_blue{
+	background: #4aa9db !important;
+	width:50%;
+}
+.bar_red{
+	background:#fd5757 !important;
+	width:70%;
+}
+.footer_right{
+	height:118px;
+	width:300px;
+	padding:0 0 0 30px;
+}
+.footer_right .chongzhi_img_box{
+	margin:30px 0;
+}
+.chongzhi_img_box span{
+	width:72px;
+	height:50px;
+	margin-right:18px;
+	background: url(../images/rechargeMethod.png) no-repeat;
+	display:inline-block;
+}
+.chongzhi_img_box span:last-child{
+	margin-right: 0;
+}
+.chongzhi_img_box .chongzhi_img2{
+	background-position: 0 -50px;
+}
+.chongzhi_img_box .chongzhi_img3{
+	background-position: 0 -100px;
+}
+
+.footer_other{
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:20px;
+}
+.footer_link{
+	padding:10px 0;
+}
+.footer_link a{
+	padding: 0 10px;
+	margin:5px 0;
+	color:#333;
+	position:relative;
+
+}
+.footer_link a:hover{
+	color:red;
+	text-decoration:underline;
+}
+.footer_link  a + a:before{
+	width:1px;
+	height:15px;
+	background: #999;
+	content:'';
+	position:absolute;
+	top:1px;
+	left:0px;
+}
+.footer_copyright{
+	color:#999;
+}
+.footer_left {
+	width:260px;
+}
+.footer_left>i{
+	background: -webkit-linear-gradient(left, rgba(248, 248, 248, 0) 0, rgba(248, 248, 248, 0.66) 50%, rgba(248, 248, 248, 0) 100%);
+	position: absolute;
+	overflow:hidden;
+	width:40px;
+	height:100px;
+	left:-45px;
+	top:0;
+	transform: rotate(17deg);
+}
+.footer_left:hover>i{
+	left:260px;
+	transition:1s;
+}
+.notice {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 316px;
+    background: rgba(0,0,0,.2);
+    color: #fff;
+}
+.noticCon {
+    margin: 8px;
+    background: #fff;
+}
+.noticCon h3 {
+    background: #e4393c;
+    margin: 0;
+    padding: 5px 8px;
+		font-size: 14px;
+}
+.noticCon h3 a {
+    position: absolute;
+    right: 20px;
+    color: #fff;
+    font-size: 12px;
+    -webkit-transition-duration: .7s;
+    transition-duration: .7s;
+}
+.noticCon>ul {
+    text-align: center;
+}
+.noticCon>ul li {
+    padding: 10px;
+    line-height: 1.4;
+}
+.noticCon>ul a {
+    color: #333;
+}
+

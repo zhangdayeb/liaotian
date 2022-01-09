@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="Bookmark" href="/favicon.ico" >
+    <link rel="Shortcut Icon" href="/favicon.ico" />
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/static/lib/html5shiv.js"></script>
+    <script type="text/javascript" src="/static/lib/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/static/static/h-ui/css/H-ui.css" />
+    <link rel="stylesheet" type="text/css" href="/static/static/h-ui.admin/css/H-ui.admin.css" />
+    <link rel="stylesheet" type="text/css" href="/static/lib/Hui-iconfont/1.0.8/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="/static/static/h-ui.admin/css/style.css" />
+    <!--[if IE 6]>
+    <script type="text/javascript" src="/static/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script>DD_belatedPNG.fix('*');</script>
+    <![endif]-->
+    <title>管理系统</title>
+</head>
+<body>
+<header class="navbar-wrapper">
+    <div class="navbar navbar-fixed-top">
+        <div class="container-fluid cl" style="background-color: #009688;color: white !important;">
+            <div style="color: white;font-weight: 400;height: 50px;line-height: 50px;width: 50%;font-size: 20px;">
+                即时通讯系统<span style="font-size: 14px;margin-left: 20px;"></span><span></span>
+            </div>
+            <nav id="Hui-userbar" class="nav navbar-nav navbar-userbar hidden-xs mt-10">
+                <ul class="cl">
+                    <li style="font-size: 14px; margin-right:80px">
+                        <span class="dropDown size-S">
+                              <a class="dropDown_A size-S" style="color:#ffffff" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                <i class="Hui-iconfont">&#xe705;</i>欢迎你,超级管理员:admin
+                            </a>
+                            <ul class="dropDown-menu menu radius box-shadow size-S">
+                               
+                                <li> <a href="{:url('/super_signout')}"><i class="Hui-iconfont">&#xe726;</i> 退出</a></li>
+                            </ul>
+                        </span>    
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<aside class="Hui-aside" style="background-color: #393D4">
+    <div class="admin-logo">
+            <img src="/static/lib/image/im.png" alt=""/>
+    </div>
+    <div class="menu_dropdown bk_2">
+         <dl id="menu-find">
+            <dt><i class="Hui-iconfont">&#xe62d;</i> 管理员列表<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a data-href="{:url('/super_adminList')}" data-title="管理员列表" href="javascript:;"><i class="Hui-iconfont">&#xe6bf;</i> &nbsp;管理员列表</a></li>
+                    <li><a data-href="{:url('/super_changepass')}" data-title="修改密码" href="javascript:;"><i class="Hui-iconfont">&#xe6bf;</i> &nbsp;修改密码</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-config">
+            <dt><i class="Hui-iconfont">&#xe61d;</i> 系统设置<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a data-href="{:url('/super_configList')}" data-title="配置列表" href="javascript:;"><i class="Hui-iconfont">&#xe6bf;</i> &nbsp; 配置列表</a></li>
+                </ul>
+                <ul>
+                    <li><a data-href="{:url('/super_setconfig')}" data-title="系统设置" href="javascript:;"><i class="Hui-iconfont">&#xe6bf;</i> &nbsp; 系统设置</a></li>
+                </ul>
+            </dd>
+        </dl>
+       <!--
+         <dl id="menu-find">
+            <dt><i class="Hui-iconfont">&#xe643;</i> 客户(商家)管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a data-href="{:url('/super_findList')}" data-title="客户(商家)列表" href="javascript:;"><i class="Hui-iconfont">&#xe6bf;</i> &nbsp;客户(商家)列表</a></li>
+                </ul>
+            </dd>
+        </dl> -->
+      
+         <dl id="menu-member">
+            <dt><i class="Hui-iconfont">&#xe62c;</i> 用户管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a data-href="{:url('/super_memberList')}" data-title="会员列表" href="javascript:;"><i class="Hui-iconfont">&#xe6bf;</i> &nbsp;会员列表</a></li>
+                    <li><a data-href="{:url('/super_memberlogList')}" data-title="会员登录日志" href="javascript:;"><i class="Hui-iconfont">&#xe6bf;</i> &nbsp;会员登录日志</a></li>
+                </ul>
+            </dd>
+        </dl>
+      <dl id="menu-member">
+            <dt><i class="Hui-iconfont">&#xe62b;</i> 群组管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a data-href="{:url('/super_groupList')}" data-title="群列表" href="javascript:;"><i class="Hui-iconfont">&#xe6bf;</i> &nbsp;群列表</a></li>
+                  
+                </ul>
+            </dd>
+        </dl>
+
+        <dl id="contant-mailList">
+            <dt><i class="Hui-iconfont">&#xe692;</i> 通讯录管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a data-href="{:url('/super_friendlist')}" data-title="通讯录列表" href="javascript:;"><i class="Hui-iconfont">&#xe6bf;</i> &nbsp;通讯录列表</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="aduit-mailList">
+            <dt><i class="Hui-iconfont">&#xe692;</i> 财务管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a data-href="{:url('/super_finance')}" data-title="提现列表" href="javascript:;"><i class="Hui-iconfont">&#xe6bf;</i> &nbsp;提现列表</a></li>
+                </ul>
+                <ul>
+                    <li><a data-href="{:url('/super_capital_getList')}" data-title="资金记录" href="javascript:;"><i class="Hui-iconfont">&#xe6bf;</i> &nbsp;资金记录</a></li>
+                </ul>
+                <ul>
+                    <li><a data-href="{:url('/super_manual')}" data-title="手动操作" href="javascript:;"><i class="Hui-iconfont">&#xe6bf;</i> &nbsp;手动操作</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-chat">
+            <dt><i class="Hui-iconfont Hui-iconfont-xiaoxi1"></i> 会话管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a data-href="{:url('/super_chatList')}" data-title="对话列表" href="javascript:;"><i class="Hui-iconfont">&#xe6bf;</i> &nbsp;对话列表</a></li>
+                </ul>
+            </dd>
+        </dl>
+
+        <dl id="menu-online">
+            <dt><i class="Hui-iconfont Hui-iconfont-xiaoxi1"></i> 自定义网站<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a data-href="{:url('/super_findList')}" data-title="自定义网站" href="javascript:;"><i class="Hui-iconfont">&#xe6bf;</i> &nbsp;自定义网站</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-contact">
+            <dt><i class="Hui-iconfont Hui-iconfont-xiaoxi1"></i> 手机通讯录<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a data-href="{:url('/super_contactList')}" data-title="手机通讯录" href="javascript:;"><i class="Hui-iconfont">&#xe6bf;</i> &nbsp;手机通讯录</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl id="menu-article">
+            <dt><i class="Hui-iconfont Hui-iconfont-xiaoxi1"></i> 文章管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+            <dd>
+                <ul>
+                    <li><a data-href="{:url('/super_articleList')}" data-title="文章管理" href="javascript:;"><i class="Hui-iconfont">&#xe6bf;</i> &nbsp;文章管理</a></li>
+                </ul>
+            </dd>
+        </dl>
+
+    </div>
+</aside>
+<div class="dislpayArrow hidden-xs"><a class="pngfix" href="javascript:void(0);" onClick="displaynavbar(this)"></a></div>
+<section class="Hui-article-box">
+    <div id="Hui-tabNav" class="Hui-tabNav hidden-xs" style="display: none !important;">
+        <div class="Hui-tabNav-wp">
+            <ul id="min_title_list" class="acrossTab cl">
+                <li class="active">
+                    <span title="首页" data-href="{:url('/welcomeSuper')}">首页</span>
+                    <em></em></li>
+            </ul>
+        </div>
+        <div class="Hui-tabNav-more btn-group"><a id="js-tabNav-prev" class="btn radius btn-default size-S" href="javascript:;">
+        <i class="Hui-iconfont">&#xe6d4;</i></a><a id="js-tabNav-next" class="btn radius btn-default size-S" href="javascript:;">
+        <i class="Hui-iconfont">&#xe6d7;</i></a></div>
+    </div>
+    <div id="iframe_box" class="Hui-article">
+        <div class="show_iframe">
+            <div style="display:none" class="loading"></div>
+            <iframe scrolling="yes" frameborder="0" src="{:url('/welcomeSuper')}"></iframe>
+        </div>
+    </div>
+</section>
+
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="/static/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="/static/static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript" src="/static/static/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
+
+</body>
+</html>

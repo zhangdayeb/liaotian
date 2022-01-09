@@ -1,0 +1,44 @@
+{
+    "name": "topthink/think",
+    "description": "the new thinkphp framework",
+    "type": "project",
+    "keywords": [
+        "framework",
+        "thinkphp",
+        "ORM"
+    ],
+    "homepage": "http://thinkphp.cn/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "jiang",
+            "email": "497571776@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "topthink/framework": "5.1.*",
+        "topthink/think-mongo": "^2.0",
+        "workerman/gatewayclient": "^3.0",
+        "topthink/think-image": "^1.0",
+        "mongodb/mongodb": "^1.6",
+        "xaboy/form-builder": "~1.2",
+        "getuilaboratory/getui-pushapi-php-client": "dev-master",
+        "topthink/think-queue": "<3.0",
+        "alibabacloud/client": "^1.5",
+        "yansongda/pay": "^2.7",
+        "flc/dysms": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app",
+            "extend\\": "extend"
+        }
+    },
+    "extra": {
+        "think-path": "thinkphp"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}

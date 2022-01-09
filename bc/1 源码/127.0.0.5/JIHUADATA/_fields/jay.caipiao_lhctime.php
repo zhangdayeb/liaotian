@@ -1,0 +1,1 @@
+a:6:{i:0;s:2:"id";i:1;s:12:"preDrawIssue";i:2;s:5:"qihao";i:3;s:8:"drawTime";s:3:"_pk";s:2:"id";s:5:"_type";a:4:{s:2:"id";s:7:"int(11)";s:12:"preDrawIssue";s:12:"varchar(255)";s:5:"qihao";s:12:"varchar(256)";s:8:"drawTime";s:12:"varchar(255)";}}

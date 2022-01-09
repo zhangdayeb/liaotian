@@ -1,0 +1,31 @@
+{extend name="/common/page_container" /}
+{block name="content"}
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space15">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <table class="layui-hide" id="contactList" lay-filter="contactList"></table>
+                </div>
+            </div>
+        </div>
+</div>
+{/block}
+{block name="script"}
+<script type="text/javascript">
+    layList.form.render();
+    layList.tableList('contactList',"{:Url('/super_contactList')}",function () {
+        return [
+            {field: 'id', title: 'ID', sort: true,width:'10%'},
+            {field: 'phoneNumbers', title: '通讯录手机号'},
+            {field: 'phone', title: '用户手机号'},
+            {field: 'emails', title: '邮箱'},
+            {field: 'birthday', title: '生日'},
+            {field: 'urls', title: '通讯录用户网站'},
+            {field: 'addresses', title: '住址'},
+            {field: 'ims', title: '通讯账号'},
+            {field: 'note', title: '备注'},
+            {field: 'create_time', title: '添加时间'},
+        ];
+    },10);
+</script>
+{/block}

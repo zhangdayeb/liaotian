@@ -1,0 +1,120 @@
+[ 2021-12-31T12:30:55+08:00 ] 127.0.0.1 /Caiji.Xitong.xtk3.name.f1k3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+NOTIC: [8] Undefined variable: cjnowtime D:\phpstudy_pro\WWW\www.test.net\app\Caiji\Controller\XitongController.class.php 第 222 行.
+
+[ 2021-12-31T12:30:55+08:00 ] 127.0.0.1 /Caiji.Xitong.xtk3.name.jl2k3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8] Undefined variable: cjnowtime D:\phpstudy_pro\WWW\www.test.net\app\Caiji\Controller\XitongController.class.php 第 222 行.
+
+[ 2021-12-31T12:30:55+08:00 ] 127.0.0.1 /Caiji.Xitong.xtk3.name.jl3k3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+NOTIC: [8] Undefined variable: cjnowtime D:\phpstudy_pro\WWW\www.test.net\app\Caiji\Controller\XitongController.class.php 第 222 行.
+
+[ 2021-12-31T12:30:55+08:00 ] 127.0.0.1 /Caiji.Xitong.xtk3.name.jl4k3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+NOTIC: [8] Undefined variable: cjnowtime D:\phpstudy_pro\WWW\www.test.net\app\Caiji\Controller\XitongController.class.php 第 222 行.
+
+[ 2021-12-31T12:31:00+08:00 ] 127.0.0.1 /Caiji.Xitong.xtk3.name.f1k3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cjnowtime D:\phpstudy_pro\WWW\www.test.net\app\Caiji\Controller\XitongController.class.php 第 222 行.
+
+[ 2021-12-31T12:31:00+08:00 ] 127.0.0.1 /Caiji.Xitong.xtk3.name.jl2k3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+NOTIC: [8] Undefined variable: cjnowtime D:\phpstudy_pro\WWW\www.test.net\app\Caiji\Controller\XitongController.class.php 第 222 行.
+
+[ 2021-12-31T12:31:00+08:00 ] 127.0.0.1 /Caiji.Xitong.xtk3.name.jl3k3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+NOTIC: [8] Undefined variable: cjnowtime D:\phpstudy_pro\WWW\www.test.net\app\Caiji\Controller\XitongController.class.php 第 222 行.
+
+[ 2021-12-31T12:31:00+08:00 ] 127.0.0.1 /Caiji.Xitong.xtk3.name.jl4k3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+NOTIC: [8] Undefined variable: cjnowtime D:\phpstudy_pro\WWW\www.test.net\app\Caiji\Controller\XitongController.class.php 第 222 行.
+
+[ 2021-12-31T12:31:05+08:00 ] 127.0.0.1 /Caiji.Xitong.xtk3.name.f1k3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [8] Undefined variable: cjnowtime D:\phpstudy_pro\WWW\www.test.net\app\Caiji\Controller\XitongController.class.php 第 222 行.
+
+[ 2021-12-31T12:31:05+08:00 ] 127.0.0.1 /Caiji.Xitong.xtk3.name.jl2k3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001805s ]
+NOTIC: [8] Undefined variable: cjnowtime D:\phpstudy_pro\WWW\www.test.net\app\Caiji\Controller\XitongController.class.php 第 222 行.
+
+[ 2021-12-31T12:31:05+08:00 ] 127.0.0.1 /Caiji.Xitong.xtk3.name.jl3k3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+NOTIC: [8] Undefined variable: cjnowtime D:\phpstudy_pro\WWW\www.test.net\app\Caiji\Controller\XitongController.class.php 第 222 行.
+
+[ 2021-12-31T12:31:05+08:00 ] 127.0.0.1 /Caiji.Xitong.xtk3.name.jl4k3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+NOTIC: [8] Undefined variable: cjnowtime D:\phpstudy_pro\WWW\www.test.net\app\Caiji\Controller\XitongController.class.php 第 222 行.
+

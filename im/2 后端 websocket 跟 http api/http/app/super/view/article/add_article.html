@@ -1,0 +1,187 @@
+{extend name="/common/page_container" /}
+{block name="content"}
+<style>
+    .form-content{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        padding-left: 2%;
+        padding-top: 20px;
+    }
+    .form-content-left{
+        width: 30%;
+    }
+    .form-content-right{
+        width: 400px;
+        border: 1px solid black;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+    }
+    .form-content-right div{
+        padding: 5px;
+    }
+    .layui-input, .layui-textarea{
+     width: 300px;
+    }
+    .layui-select-title{
+        width: 300px;
+    }
+
+    .layui-form-select{
+        width: 300px !important;
+    }
+    .layui-form-item{
+        padding: 5px !important;
+    }
+</style>
+<div class="form-content">
+    <div class="form-content-left">
+        <form class="layui-form" action="">
+            <div class="layui-form-item">
+                <label class="layui-form-label">文章名称</label>
+                <div class="layui-input-block">
+                    <input type="text" name="article_name" value="<?=$params['article_name']?>"  required  lay-verify="required" placeholder="请输入文章名称" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">文章小图</label>
+                <div class="layui-input-block" >
+                    <button type="button" required class="layui-btn" id="uploader">
+                        <i class="layui-icon">&#xe67c;</i>上传图片
+                    </button>
+                    {if condition="$params.small_pic"}
+                    <img src="<?=$params['small_pic']?>" name="small_pic"     alt="" id="form-upload" style="width: 80px;height: 80px;margin-top: 10px"/>
+                     {else}
+                    <img src="" name="small_pic"   alt="" id="form-upload" style="width: 80px;height: 80px;margin-top: 10px;;display: none"/>
+                    {/if}
+                    <input type="hidden" id="small_pic" name="small_pic" value="<?=$params['small_pic']?>"/>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">文章描述</label>
+                <div class="layui-input-block">
+                    <input type="text" name="article_desc"  value="<?=$params['article_desc']?>" required  lay-verify="required" placeholder="请输入文章描述" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">文章排序</label>
+                <div class="layui-input-block">
+                    <input type="text" name="sort"  value="<?=$params['sort']?>" required  lay-verify="required" placeholder="请输入文章排序,越小越靠前" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">是否上架</label>
+                <div class="layui-input-block">
+                    {if condition="$params.status == 1 || $params.status == -1"}
+                    <input type="checkbox" name="status" checked lay-skin="switch"  lay-text='上架|下架' lay-filter="status" title="是否上架">
+                    {else}
+                    <input type="checkbox" name="status" lay-skin="switch"  lay-text='上架|下架' lay-filter="status" title="是否上架">
+                    {/if}
+                </div>
+            </div>
+            <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">文章详情</label>
+                <div class="layui-input-block">
+                    <textarea name="content"  placeholder="请输入文章详情" id="myEditor" maxlength="50" class="layui-textarea"></textarea>
+                </div>
+            </div>
+            <input type="hidden" name="id"  value="<?=$params['id']?>"/>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-submit lay-filter="*">立即提交</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+<!-- 配置文件 -->
+<link href="{__ADMIN_PLUG_PATH}/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="{__ADMIN_PLUG_PATH}/umeditor/third-party/jquery.min.js"></script>
+<script type="text/javascript" src="{__ADMIN_PLUG_PATH}/umeditor/third-party/template.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="{__ADMIN_PLUG_PATH}/umeditor/umeditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="{__ADMIN_PLUG_PATH}/umeditor/umeditor.min.js"></script>
+<script type="text/javascript" src="{__ADMIN_PLUG_PATH}/umeditor/lang/zh-cn/zh-cn.js"></script>
+{/block}
+{block name="script"}
+<script type="text/javascript">
+
+    var View ={
+        params:{
+            form:{
+                status:1,
+                article_name:'',
+                article_desc:'',
+                content:'',
+                postion:0,
+            },
+            UM:null
+        },
+        init:function () {
+            let _this = this;
+            layList.form.render();
+            window.UMEDITOR_CONFIG.toolbar = [
+                // 加入一个 test
+                'source | undo redo | bold italic underline strikethrough | superscript subscript | forecolor backcolor | removeformat |',
+                'insertorderedlist insertunorderedlist | selectall cleardoc paragraph | fontfamily fontsize',
+                '| justifyleft justifycenter justifyright justifyjustify |',
+                'link unlink | emotion image video  ',
+                '| horizontal print preview fullscreen', 'drafts', 'formula'
+            ];
+            var um = UM.getEditor('myEditor', {initialFrameWidth:700, initialFrameHeight: 400});
+            var content = '<?=$content?>';
+            um.setContent(content);
+            this.UM = um;
+            layList.form.on('switch(status)', function(data){
+                console.log(data.elem.checked); //是否被选中，true或者false
+                if(data.elem.checked){
+                    _this.params.form.status = 1;
+                }else {
+                    _this.params.form.status = 0;
+                }
+            });
+            layList.form.on('submit(*)', function(data){
+                data.field.status = _this.params.form.status;
+                data.field.content = _this.UM.getContent();
+                $.post('/super_addArticle',data.field,function (ret) {
+                    layer.msg(ret.msg)
+                    if(ret.err == 0){
+                        setTimeout(function () {
+                            history.back();
+                        },1000)
+                    }
+
+                },'json')
+                return false; //阻止表单跳转。如果需要表单跳转，去掉这段即可。
+            });
+            layui.use('upload', function(){
+                var upload = layui.upload;
+
+                //执行实例
+                var uploadInst = upload.render({
+                    elem: '#uploader' //绑定元素
+                    ,url: '/super_uploadOne' //上传接口
+                    ,done: function(ret,index,upload){
+                        $("#form-upload").attr("src",ret.url).css('display','block');
+                        $("#small_pic").val(ret.url)
+                    }
+                    ,error: function(){
+
+                    }
+                });
+            });
+            um.ready(function(){
+                //设置编辑器的内容
+                // um.setContent('hello');
+                // //获取html内容，返回: <p>hello</p>
+
+                // var html = um.getContent();
+                // //获取纯文本内容，返回: hello
+                // var txt = um.getContentTxt();
+            });
+        }
+    }
+    View.init()
+</script>
+{/block}

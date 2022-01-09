@@ -1,0 +1,239 @@
+.liked{
+	/* display: inline-block; */
+	position: relative;
+	margin-right: 10upx;
+	width: 34upx;
+	height: 34upx;
+}
+.post-username{
+	font-size:32upx;
+	font-weight: 600;
+	color: #36648B;
+}
+	
+.gallery_img {
+	width: 100%;
+	height: 100%
+}
+
+.header {
+	width: 250upx;
+	height: 250upx;
+	z-index: 10;
+	border-radius: 40upx;
+}
+
+.publish {
+	position: absolute;
+	top: 20upx;
+	right: 20upx;
+
+	/* z-index: 9999; */
+}
+
+.post_header {
+	width: 85upx !important;
+	height: 85upx !important;
+	border-radius: 10upx;
+	margin-top: 8upx;
+}
+
+#moments {
+	background: #fff;
+}
+
+#moments .home-pic {
+	width: 100%;
+	/* margin-top: -150upx; */
+	position: relative;
+	height: 500upx;
+	z-index: 5;
+	margin-bottom: 50upx
+}
+
+#moments .home-pic-base {
+	position: absolute;
+	left: -60upx;
+	bottom: -70upx;
+	width: 100%;
+	height: 160upx;
+	padding: 0 15upx;
+}
+
+#moments .home-pic-base .top-pic {
+	width: 250upx;
+	height:250upx;
+	
+	border-radius: 40upx;
+	-webkit-transform: scale(0.5);
+	-ms-transform: scale(0.5);
+	transform: scale(0.5);
+	-webkit-transform-origin: 100% 0%;
+	-ms-transform-origin: 100% 0%;
+	transform-origin: 100% 0%;
+	background-color: #ffffff;
+	
+	float: right
+}
+
+#moments .home-pic-base .top-name {
+	position: absolute;
+	/* left: 20px; */
+	right: 160upx;
+	top: 45upx;
+	font-size: 32upx;
+	font-weight: 600;
+	text-align: right;
+	color: #ffffff;
+	overflow: hidden
+}
+
+#moments .moments__post {
+	background: #fff;
+	display: block;
+	border-bottom: 1px solid #f2eeee;
+	padding: 30upx 20upx;
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+
+#moments .moments__post::before {
+	content: none
+}
+
+#moments .moments__post .post_right {
+	font-size: 32upx;
+	display: table-cell;
+	padding-left: 20upx;
+	width: 100%;
+}
+
+/* #moments .moments__post .post_right .paragraphExtender {
+		margin: 5px auto;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex
+	} */
+
+#moments .moments__post .title {
+	color: #094dcc
+}
+
+#moments .moments__post .thumbnails {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	/* display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox; */
+	/* -webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap; */
+}
+
+#moments .moments__post .thumbnails .thumbnail {
+	width: 30%;
+	height: 180upx;
+	margin: 4upx;
+	background: #757575;
+	overflow: hidden;
+}
+
+.my-gallery{
+	width: 250upx;
+	height: 400upx;
+	margin: 4upx;
+	background: #757575;
+	overflow: hidden
+}
+
+#moments .moments__post .toolbar {
+	position: relative;
+	top: 10upx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+#moments .moments__post .toolbar .timestamp {
+	color: #757575;
+	font-size: 22upx;
+}
+
+
+#moments .moments__post .like {
+	width: auto;
+	height: auto;
+	position: absolute;
+	right: 70upx;
+	display: flex;
+	align-items: center;
+}
+#moments .moments__post .comment {
+	width: auto;
+	height: auto;
+	position: absolute;
+	right: 10upx;
+	display: flex;
+	align-items: center;
+}
+
+#moments .moments__post .toolbar image{
+	padding-left: 20upx;
+	width: 30upx;
+	height: 30upx;
+}
+
+.post-footer{
+	margin-top: 30upx;
+	background-color: #f3f3f5;
+	width: 100%;
+}
+
+#moments .moments__post .footer_content {
+	padding-left: 10upx;
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap
+}
+
+#moments .moments__post .footer_content .nickname {
+	color: #36648B;
+	font-size: 24upx
+}
+
+#moments .moments__post .footer_content .comment-nickname {
+	color: #36648B;
+	font-size: 24upx
+}
+
+#moments .moments__post .footer_content .comment-content {
+	color: #000000;
+	font-size: 24upx
+}
+
+.foot {
+	position: fixed;
+	width: 100%;
+	height: 90upx;
+	min-height: 90upx;
+	left: 0upx;
+	bottom: 0upx;
+	overflow: hidden;
+}

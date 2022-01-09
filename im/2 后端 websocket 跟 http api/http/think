@@ -1,0 +1,30 @@
+#!/usr/bin/env php
+<?php
+// +----------------------------------------------------------------------
+// | ThinkPHP [ WE CAN DO IT JUST THINK ]
+// +----------------------------------------------------------------------
+// | Copyright (c) 2006-2018 http://thinkphp.cn All rights reserved.
+// +----------------------------------------------------------------------
+// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
+// +----------------------------------------------------------------------
+// | Author: yunwuxin <448901948@qq.com>
+// +----------------------------------------------------------------------
+
+namespace think;
+if(!defined('APP_PATH'))define('APP_PATH', __DIR__ . '/app/');
+if(!defined('BASE_PATH'))define('BASE_PATH', __DIR__);
+if(!defined('VENDOR_PATH'))define('VENDOR_PATH', __DIR__ . '/vendor/');
+if(!defined('PHOTO_PATH'))define('PHOTO_PATH', __DIR__ . '/public/static/photo/');
+if(!defined('CHAT_PATH'))define('CHAT_PATH',  __DIR__ . '/public/static/chat/');
+
+if(!defined('PHOTO_USER_PATH'))define('PHOTO_USER_PATH', __DIR__ . '/public/static/photo/user/');
+if(!defined('PHOTO_GROUP_PATH'))define('PHOTO_GROUP_PATH', __DIR__ . '/public/static/photo/group_photo/');
+
+// 加载基础文件
+require __DIR__ . '/thinkphp/base.php';
+
+// 应用初始化
+Container::get('app')->path(APP_PATH)->initialize();
+
+// 控制台初始化
+Console::init();

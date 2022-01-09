@@ -1,0 +1,13 @@
+Workerman[start.php] restart 
+Workerman[start.php] is stopping ...
+Workerman[start.php] stop success
+-------------------------------------------- WORKERMAN ---------------------------------------------
+Workerman version:3.5.20          PHP version:7.0.33
+--------------------------------------------- WORKERS ----------------------------------------------
+proto   user            worker            listen                      processes    status           
+tcp     root            BusinessWorker    none                        4             [OK]            
+tcp     root            Gatway            websocket://0.0.0.0:8383    4             [OK]            
+tcp     root            Register          text://0.0.0.0:1236         1             [OK]            
+----------------------------------------------------------------------------------------------------
+Input "php start.php stop" to stop. Start success.
+

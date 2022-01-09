@@ -1,0 +1,983 @@
+[ 2021-12-31T12:17:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 13 行.
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `caipiao_setting` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_setting` WHERE `name` IN ('webtitle','keywords','description','iskillorder','sysBankMaxNum','tikuanMin','tikuanMax','ritikuanxiane','tikuanstart','tikuanend','tikuannum','tikuannumoverbilv','tikuannumovermin','tikuannumovermax','paiduinum','pointchongzhi','pointchongzhiadd','pointtouzhu','pointtouzhuadd','pointhuisun','pointhuisunadd','kefuthree','bindcardamount','newmemberrecharge','newmemberrechargeamount','activity_cz0_money','activity_cz0_zsmoney','activity_cz1_money','activity_cz1_zsmoney','activity_cz2_money','activity_cz2_zsmoney','riCommissionBase0_0','riCommissionBase0_1','riCommissionBase1_2','riCommissionBase2_0','riCommissionBase2_1','riCommissionBase2_2','yueCommissionBase0_0','yueCommissionBase0_1','yueCommissionBase0_2','yueCommissionBase1_0','yueCommissionBase1_1','yueCommissionBase1_2','yueCommissionBase2_0','yueCommissionBase2_1','yueCommissionBase2_2','riKuisunBase0_0','riKuisunBase0_1','riKuisunBase0_2','riKuisunBase1_0','riKuisunBase1_1','riKuisunBase1_2','riKuisunBase2_0','riKuisunBase2_1','riKuisunBase2_2','yueKuisunBase0_0','yueKuisunBase0_1','yueKuisunBase0_2','yueKuisunBase1_0','yueKuisunBase1_1','yueKuisunBase1_2','yueKuisunBase2_0','yueKuisunBase2_1','yueKuisunBase2_2','agentBonusBase0_0','agentBonusBase0_1','agentBonusBase1_0','agentBonusBase1_1','agentBonusBase2_0','agentBonusBase2_1','agentBonusBase3_0','agentBonusBase3_1','loginerrornum_q','loginerrorclosetime_q','ipblackisopen','ipblacklist','ipwhiteisopen','ipwhitelist','pointexchangeamount','kefuqq','defaulttjcode','agent_commission_open','bancountry')  [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `caipiao_caipiao` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `caipiao_caipiao` WHERE `isopen` = 1 ORDER BY listorder asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `caipiao_gonggao` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `caipiao_gonggao` ORDER BY id desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `caipiao_payset` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `caipiao_payset` WHERE `state` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `caipiao_membergroup` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `caipiao_membergroup`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: min_wxzhixfs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_wxzhixfs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_wxzhixds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_wxzhixds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_wxzxyel D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_wxzxyel D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_wxzxls D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_wxzxls D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_wxzxsl D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_wxzxsl D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_wxzxel D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_wxzxel D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_wxzxyl D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_wxzxyl D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_wxzxw D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_wxzxw D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sixzhixfsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sixzhixfsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sixzhixdsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sixzhixdsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_hsizxes D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_hsizxes D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_hsizxye D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_hsizxye D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_hsizxl D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_hsizxl D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_hsizxs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_hsizxs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzhixfsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzhixfsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzhixdsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzhixdsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzuxzsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzuxzsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzuxzlq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzuxzlq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxhhzxq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxhhzxq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_qszsds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_qszsds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_qszlds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_qszlds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzhixfsz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzhixfsz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzhixdsz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzhixdsz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzuxzsz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzuxzsz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzuxzlz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzuxzlz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxhhzxz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxhhzxz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zszsds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zszsds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zszlds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zszlds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzhixfsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzhixfsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzhixdsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzhixdsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzuxzsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzuxzsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzuxzlh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzuxzlh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxhhzxh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxhhzxh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_hszsds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_hszsds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_hszlds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_hszlds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_exzhixfsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_exzhixfsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_exzhixdsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_exzhixdsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_exzhixfsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_exzhixfsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_exzhixdsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_exzhixdsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_exzuxfsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_exzuxfsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_exzuxdsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_exzuxdsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_exzuxfsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_exzuxfsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_exzuxdsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_exzuxdsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dweid D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dweid D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zuxcsbd D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zuxcsbd D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zuxzsbd D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zuxzsbd D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zuxhsbd D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zuxhsbd D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zuxcebd D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zuxcebd D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zuxhebd D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zuxhebd D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdwqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdwqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdwzs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdwzs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdwhs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdwhs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdw5x1m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdw5x1m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdw5x2m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdw5x2m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdw5x3m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdw5x3m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdw4x1m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdw4x1m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdw4x2m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdw4x2m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdwqs2m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdwqs2m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdwzs2m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdwzs2m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdwhs2m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdwhs2m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_kuaduqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_kuaduqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_kuaduzs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_kuaduzs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_kuaduhs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_kuaduhs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_kuaduqe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_kuaduqe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_kuaduhe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_kuaduhe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dxdsqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dxdsqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dxdshs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dxdshs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dxdsqe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dxdsqe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dxdshe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dxdshe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zhixhzqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zhixhzqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zhixhzzs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zhixhzzs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zhixhzhs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zhixhzhs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zhixhzqe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zhixhzqe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zhixhzhe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zhixhzhe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zuxhzqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zuxhzqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zuxhzzs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zuxhzzs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zuxhzhs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zuxhzhs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zuxhzqe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zuxhzqe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zuxhzhe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zuxhzhe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_qwyffs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_qwyffs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_qwhscs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_qwhscs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_qwsxbx D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_qwsxbx D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_qwsjfc D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_qwsjfc D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lhwq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lhwq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lhwb D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lhwb D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lhws D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lhws D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lhwg D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lhwg D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lhqb D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lhqb D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lhqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lhqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lhqg D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lhqg D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lhbs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lhbs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lhbg D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lhbg D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lhsg D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lhsg D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d1q_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d1q_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d1q_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d1q_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d1q_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d1q_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d1q_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d1q_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d2q_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d2q_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d2q_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d2q_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d2q_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d2q_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d2q_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d2q_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d3q_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d3q_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d3q_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d3q_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d3q_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d3q_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d3q_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d3q_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d4q_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d4q_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d4q_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d4q_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d4q_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d4q_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d4q_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d4q_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d5q_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d5q_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d5q_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d5q_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d5q_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d5q_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d5q_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d5q_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_zongh_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_zongh_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_zongh_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_zongh_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_zongh_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_zongh_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_zongh_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_zongh_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d1q_eq0 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d1q_eq0 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d1q_eq1 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d1q_eq1 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d1q_eq2 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d1q_eq2 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d1q_eq3 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d1q_eq3 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d1q_eq4 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d1q_eq4 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d1q_eq5 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d1q_eq5 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d1q_eq6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d1q_eq6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d1q_eq7 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d1q_eq7 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d1q_eq8 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d1q_eq8 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d1q_eq9 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d1q_eq9 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d2q_eq0 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d2q_eq0 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d2q_eq1 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d2q_eq1 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d2q_eq2 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d2q_eq2 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d2q_eq3 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d2q_eq3 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d2q_eq4 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d2q_eq4 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d2q_eq5 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d2q_eq5 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d2q_eq6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d2q_eq6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d2q_eq7 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d2q_eq7 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d2q_eq8 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d2q_eq8 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d2q_eq9 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d2q_eq9 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d3q_eq0 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d3q_eq0 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d3q_eq1 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d3q_eq1 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d3q_eq2 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d3q_eq2 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d3q_eq3 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d3q_eq3 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d3q_eq4 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d3q_eq4 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d3q_eq5 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d3q_eq5 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d3q_eq6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d3q_eq6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d3q_eq7 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d3q_eq7 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d3q_eq8 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d3q_eq8 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d3q_eq9 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d3q_eq9 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d4q_eq0 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d4q_eq0 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d4q_eq1 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d4q_eq1 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d4q_eq2 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d4q_eq2 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d4q_eq3 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d4q_eq3 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d4q_eq4 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d4q_eq4 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d4q_eq5 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d4q_eq5 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d4q_eq6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d4q_eq6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d4q_eq7 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d4q_eq7 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d4q_eq8 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d4q_eq8 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d4q_eq9 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d4q_eq9 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d5q_eq0 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d5q_eq0 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d5q_eq1 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d5q_eq1 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d5q_eq2 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d5q_eq2 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d5q_eq3 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d5q_eq3 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d5q_eq4 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d5q_eq4 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d5q_eq5 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d5q_eq5 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d5q_eq6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d5q_eq6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d5q_eq7 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d5q_eq7 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d5q_eq8 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d5q_eq8 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d5q_eq9 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d5q_eq9 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_qs_bz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_qs_bz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_qs_sz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_qs_sz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_qs_dz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_qs_dz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_qs_bs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_qs_bs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_qs_z6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_qs_z6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_zs_bz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_zs_bz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_zs_sz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_zs_sz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_zs_dz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_zs_dz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_zs_bs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_zs_bs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_zs_z6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_zs_z6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_hs_bz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_hs_bz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_hs_sz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_hs_sz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_hs_dz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_hs_dz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_hs_bs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_hs_bs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_hs_z6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_hs_z6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_lh_l D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_lh_l D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_lh_hu D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_lh_hu D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_lh_he D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_lh_he D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `caipiao_wanfa` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3ethfx' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3ethdx' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3ebthbz' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3sthdx' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3sthtx' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3sbthbz' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3slhtx' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3slhdx' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz4' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz5' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz6' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz7' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz8' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz10' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz12' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz13' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz14' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz15' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz16' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz17' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz18' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hzbig' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hzsmall' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hzodd' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hzeven' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'wxzhixfs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'wxzhixds' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'wxzxyel' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'wxzxls' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'wxzxsl' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'wxzxel' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'wxzxyl' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'wxzxw' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sixzhixfsh' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sixzhixdsh' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'hsizxes' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'hsizxye' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'hsizxl' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'hsizxs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzhixfsq' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzhixdsq' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzuxzsq' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzuxzlq' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxhhzxq' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'qszsds' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'qszlds' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzhixfsz' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzhixdsz' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzuxzsz' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzuxzlz' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxhhzxz' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zszsds' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zszlds' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzhixfsh' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzhixdsh' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzuxzsh' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzuxzlh' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxhhzxh' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'hszsds' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'hszlds' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'exzhixfsq' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'exzhixdsq' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'exzhixfsh' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'exzhixdsh' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'exzuxfsq' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'exzuxdsq' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'exzuxfsh' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'exzuxdsh' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dweid' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zuxcsbd' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zuxzsbd' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zuxhsbd' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zuxcebd' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zuxhebd' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdwqs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdwzs' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdwhs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdw5x1m' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdw5x2m' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdw5x3m' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdw4x1m' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdw4x2m' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdwqs2m' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdwzs2m' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdwhs2m' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'kuaduqs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'kuaduzs' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'kuaduhs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'kuaduqe' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'kuaduhe' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dxdsqs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dxdshs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dxdsqe' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dxdshe' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zhixhzqs' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zhixhzzs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zhixhzhs' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zhixhzqe' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zhixhzhe' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zuxhzqs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zuxhzzs' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zuxhzhs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zuxhzqe' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zuxhzhe' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'qwyffs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'qwhscs' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'qwsxbx' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'qwsjfc' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lhwq' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lhwb' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lhws' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lhwg' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lhqb' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lhqs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lhqg' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lhbs' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lhbg' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lhsg' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d1q_da' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d1q_xiao' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d1q_dan' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d1q_shuang' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d2q_da' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d2q_xiao' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d2q_dan' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d2q_shuang' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d3q_da' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d3q_xiao' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d3q_dan' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d3q_shuang' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d4q_da' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d4q_xiao' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d4q_dan' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d4q_shuang' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d5q_da' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d5q_xiao' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d5q_dan' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d5q_shuang' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_zongh_da' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_zongh_xiao' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_zongh_dan' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_zongh_shuang' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d1q_eq0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d1q_eq1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d1q_eq2' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d1q_eq3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d1q_eq4' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d1q_eq5' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d1q_eq6' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d1q_eq7' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d1q_eq8' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d1q_eq9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d2q_eq0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d2q_eq1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d2q_eq2' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d2q_eq3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d2q_eq4' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d2q_eq5' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d2q_eq6' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d2q_eq7' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d2q_eq8' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d2q_eq9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d3q_eq0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d3q_eq1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d3q_eq2' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d3q_eq3' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d3q_eq4' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d3q_eq5' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d3q_eq6' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d3q_eq7' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d3q_eq8' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d3q_eq9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d4q_eq0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d4q_eq1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d4q_eq2' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d4q_eq3' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d4q_eq4' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d4q_eq5' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d4q_eq6' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d4q_eq7' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d4q_eq8' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d4q_eq9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d5q_eq0' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d5q_eq1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d5q_eq2' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d5q_eq3' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d5q_eq4' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d5q_eq5' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d5q_eq6' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d5q_eq7' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d5q_eq8' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d5q_eq9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_qs_bz' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_qs_sz' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_qs_dz' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_qs_bs' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_qs_z6' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_zs_bz' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_zs_sz' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_zs_dz' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_zs_bs' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_zs_z6' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_hs_bz' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_hs_sz' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_hs_dz' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_hs_bs' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_hs_z6' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_lh_l' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_lh_hu' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_lh_he' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'bjpk10qian1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'bjpk10qian2' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'bjpk10qian2ds' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'bjpk10qian3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'bjpk10qian3ds' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'bjpk10qian4' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'bjpk10qian4ds' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'bjpk10qian5' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'bjpk10qian5ds' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'bjpk10dwd' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d1m_da' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d1m_xiao' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d1m_dan' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d1m_shuang' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d1m_long' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d1m_hu' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d2m_da' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d2m_xiao' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d2m_dan' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d2m_shuang' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d2m_long' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d2m_hu' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d3m_da' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d3m_xiao' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d3m_dan' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d3m_shuang' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d3m_long' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d3m_hu' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d4m_da' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d4m_xiao' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d4m_dan' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d4m_shuang' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d4m_long' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d4m_hu' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d5m_da' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d5m_xiao' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d5m_dan' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d5m_shuang' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d5m_long' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d5m_hu' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d6m_da' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d6m_xiao' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d6m_dan' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d6m_shuang' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d6m_long' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d6m_hu' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d7m_da' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d7m_xiao' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d7m_dan' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d7m_shuang' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d7m_long' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d7m_hu' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d8m_da' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d8m_xiao' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d8m_dan' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d8m_shuang' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d8m_long' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d8m_hu' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d9m_da' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d9m_xiao' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d9m_dan' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d9m_shuang' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d9m_long' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d9m_hu' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d10m_da' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d10m_xiao' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d10m_dan' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d10m_shuang' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d10m_long' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d10m_hu' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm4' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm5' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm6' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm7' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm8' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm10' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm11' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm12' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm13' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm14' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm15' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm16' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm17' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm18' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm19' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_da' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_xiao' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_dan' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_shuang' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d1m_hm1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d1m_hm2' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d1m_hm3' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d1m_hm4' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d1m_hm5' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d1m_hm6' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d1m_hm7' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d1m_hm8' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d1m_hm9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d1m_hm10' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d2m_hm1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d2m_hm2' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d2m_hm3' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d2m_hm4' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d2m_hm5' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d2m_hm6' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d2m_hm7' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d2m_hm8' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d2m_hm9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d2m_hm10' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d3m_hm1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d3m_hm2' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d3m_hm3' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d3m_hm4' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d3m_hm5' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d3m_hm6' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d3m_hm7' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d3m_hm8' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d3m_hm9' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d3m_hm10' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d4m_hm1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d4m_hm2' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d4m_hm3' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d4m_hm4' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d4m_hm5' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d4m_hm6' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d4m_hm7' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d4m_hm8' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d4m_hm9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d4m_hm10' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d5m_hm1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d5m_hm2' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d5m_hm3' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d5m_hm4' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d5m_hm5' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d5m_hm6' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d5m_hm7' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d5m_hm8' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d5m_hm9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d5m_hm10' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d6m_hm1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d6m_hm2' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d6m_hm3' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d6m_hm4' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d6m_hm5' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d6m_hm6' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d6m_hm7' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d6m_hm8' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d6m_hm9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d6m_hm10' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d7m_hm1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d7m_hm2' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d7m_hm3' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d7m_hm4' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d7m_hm5' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d7m_hm6' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d7m_hm7' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d7m_hm8' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d7m_hm9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d7m_hm10' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d8m_hm1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d8m_hm2' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d8m_hm3' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d8m_hm4' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d8m_hm5' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d8m_hm6' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d8m_hm7' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d8m_hm8' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d8m_hm9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d8m_hm10' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d9m_hm1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d9m_hm2' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d9m_hm3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d9m_hm4' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d9m_hm5' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d9m_hm6' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d9m_hm7' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d9m_hm8' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d9m_hm9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d9m_hm10' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d10m_hm1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d10m_hm2' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d10m_hm3' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d10m_hm4' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d10m_hm5' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d10m_hm6' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d10m_hm7' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d10m_hm8' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d10m_hm9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d10m_hm10' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'keno' AND `playid` = 'bjkl8rx1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'keno' AND `playid` = 'bjkl8rx2' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'keno' AND `playid` = 'bjkl8rx3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'keno' AND `playid` = 'bjkl8rx4' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'keno' AND `playid` = 'bjkl8rx5' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'keno' AND `playid` = 'bjkl8rx6' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'keno' AND `playid` = 'bjkl8rx7' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'keno' AND `playid` = 'bjkl8sxp' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'keno' AND `playid` = 'bjkl8jop' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'keno' AND `playid` = 'bjkl8dxds' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5qsfs' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5qsds' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5zsfs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5zsds' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5hsfs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5hsds' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5qszx' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5qszxds' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5qsdt' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5zszx' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5zsdt' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5hszx' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5hsdt' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5qefs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5qeds' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5hefs' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5heds' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5qezx' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5qezxds' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5qedt' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5hezx' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5hedt' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5bdwqs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5bdwzs' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5bdwhs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5dwd' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rx1z1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rx2z2' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rx3z3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rx4z4' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rx5z5' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rx6z5' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rx7z5' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rx8z5' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rxds1z1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rxds2z2' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rxds3z3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rxds4z4' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rxds5z5' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rxds6z5' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rxds7z5' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rxds8z5' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5dt2z2' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5dt3z3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5dt4z4' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5dt5z5' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5dt6z5' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5dt7z5' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5dt8z5' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5dds' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5czw' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3zxfs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3zxds' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3zux3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3zux6' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3zuxhh' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3zuxbd' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3zsds' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3zlds' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3q2zxfs' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3q2zxds' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3q2zxbd' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3h2zxfs' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3h2zxds' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3h2zxbd' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3qx2fs' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3qx2ds' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3hx2fs' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3hx2ds' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3ymbdw' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3rmbdw' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3kd' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3q2kd' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3h2kd' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3dwdfs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3hzzx' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3zuxhz' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3q2zxhz' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3q2zuxhz' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3h2zxhz' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3h2zuxhz' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'dxdsq2' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'dxdsh2' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: bankpaylists D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 151 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+SQL: SELECT `name` FROM `caipiao_caipiao` WHERE `isopen` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `caipiao_kaijiang` [ RunTime:0.0006s ]
+SQL: SELECT `expect`,`opencode`,`opentime` FROM `caipiao_kaijiang` WHERE `name` = 'f1k3' ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `expect`,`opencode`,`opentime` FROM `caipiao_kaijiang` WHERE `name` = 'jl2k3' ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `expect`,`opencode`,`opentime` FROM `caipiao_kaijiang` WHERE `name` = 'jl3k3' ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `expect`,`opencode`,`opentime` FROM `caipiao_kaijiang` WHERE `name` = 'jl4k3' ORDER BY id desc LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `caipiao_gonggao` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_gonggao` ORDER BY id DESC  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+SQL: SELECT * FROM `caipiao_caipiao` WHERE ( isopen=1 ) ORDER BY allsort asc,id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: issys D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT * FROM `caipiao_kaijiang` WHERE `name` = 'f1k3' ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: issys D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT * FROM `caipiao_kaijiang` WHERE `name` = 'jl2k3' ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: issys D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT * FROM `caipiao_kaijiang` WHERE `name` = 'jl3k3' ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: issys D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\IndexController.class.php 第 19 行.
+SQL: SELECT * FROM `caipiao_kaijiang` WHERE `name` = 'jl4k3' ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_membergroup`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0036s ]
+SQL: SELECT `id` FROM `caipiao_member` WHERE `isnb` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `caipiao_touzhu` [ RunTime:0.0039s ]
+ERR: 1055:Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'cp.caipiao_touzhu.cptitle' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQL语句 ] : SELECT cptitle as k3name,`uid`,`username`,sum(okamount) as okamount FROM `caipiao_touzhu` WHERE ( `oddtime` >= 1640793600 AND `oddtime` <= 1640879999  ) AND `isdraw` = 1 GROUP BY uid ORDER BY okamount desc LIMIT 600  
+ERR: 1055:Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'cp.caipiao_touzhu.cptitle' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+ [ SQL语句 ] : SELECT cptitle as k3name,`uid`,`username`,sum(okamount) as okamount FROM `caipiao_touzhu` WHERE ( `oddtime` >= 1640793600 AND `oddtime` <= 1640879999  ) AND `isdraw` = 1 GROUP BY uid ORDER BY okamount desc LIMIT 600  
+
+[ 2021-12-31T12:17:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 13 行.
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined index: h5.test.net D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: m.test.net D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 36 行.
+NOTIC: [8] Undefined index: m2.test.net D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 40 行.
+NOTIC: [8] Undefined index: m.test.net D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 44 行.
+
+[ 2021-12-31T12:17:52+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002144s ]
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 13 行.
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined index: h5.test.net D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: m.test.net D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 36 行.
+NOTIC: [8] Undefined index: m2.test.net D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 40 行.
+NOTIC: [8] Undefined index: m.test.net D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 44 行.
+
+[ 2021-12-31T12:20:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002097s ]
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 13 行.
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined index: h5.test.net D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: m.test.net D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 36 行.
+NOTIC: [8] Undefined index: m2.test.net D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 40 行.
+NOTIC: [8] Undefined index: m.test.net D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 44 行.
+
+[ 2021-12-31T12:23:42+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001924s ]
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 13 行.
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined index: h5.test.net D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 32 行.
+NOTIC: [8] Undefined index: m.test.net D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 36 行.
+NOTIC: [8] Undefined index: m2.test.net D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 40 行.
+NOTIC: [8] Undefined index: m.test.net D:\phpstudy_pro\WWW\www.test.net\app\Home\Controller\CommonController.class.php 第 44 行.
+

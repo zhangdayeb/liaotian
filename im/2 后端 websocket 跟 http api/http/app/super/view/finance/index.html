@@ -1,0 +1,164 @@
+{extend name="/common/page_container" /}
+{block name="content"}
+<style>
+    .layui-btn-xs{margin-left: 0px !important;}
+    legend{
+        width: auto;
+        border: none;
+        font-weight: 700 !important;
+    }
+    .site-demo-button{
+        padding-bottom: 20px;
+        padding-left: 10px;
+    }
+    .layui-form-label{
+        width: auto;
+    }
+    .layui-input-block input{
+        width: 50%;
+        height: 34px;
+    }
+    .layui-form-item{
+        margin-bottom: 0;
+    }
+    .layui-input-block .time-w{
+        width: 200px;
+    }
+    .layui-table-body{overflow-x: hidden;}
+    .layui-btn-group button i{
+        line-height: 30px;
+        margin-right: 3px;
+        vertical-align: bottom;
+    }
+    .back-f8{
+        background-color: #F8F8F8;
+    }
+    .layui-input-block button{
+        border: 1px solid #e5e5e5;
+    }
+    .avatar{width: 50px;height: 50px;}
+    .layui-table-body{
+        overflow-x: unset;
+    }
+</style>
+<div class="layui-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins" style="padding-left:30px;margin-top: 30px;">
+                <div class="ibox-title" style="margin-left: 5px;">
+                    <h5>条件搜索</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content" style="display: block;">
+
+                    <form class="layui-form">
+                        <div class="layui-form-item">
+                            <div class="layui-inline">
+                                <label class="layui-form-label">姓名卡号：</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" name="key" lay-verify="key" style="width: 100%" autocomplete="off" placeholder="请输入姓名、卡号" class="layui-input">
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">状　　态：</label>
+                                <div class="layui-input-inline">
+                                    <select name="status" lay-verify="status">
+                                        <option value="">全部</option>
+                                        <option value="0">审核中</option>
+                                        <option value="1">已审核成功</option>
+                                        <option value="2">已审核失败</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <div class="layui-inline">
+                                <label class="layui-form-label">选择时间：</label>
+                                <div class="layui-input-inline">
+                                    <input type="text" class="layui-input time-w" name="time" lay-verify="time"  id="time" placeholder=" - ">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">
+                                <button class="layui-btn layui-btn-sm layui-btn-normal" lay-submit="" lay-filter="search" >
+                                    <i class="layui-icon layui-icon-search layuiadmin-button-btn"></i>搜索</button>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="layui-row layui-col-space15">
+            <div class="layui-card">
+                <div class="layui-card-body">
+                    <table class="layui-hide" id="contactList" lay-filter="contactList"></table>
+                    <script type="text/html" id="action">
+                        {{#  if(d.status == 0){ }}
+                            <button type="button" class="layui-btn" onclick="updateStatus({{d.id}})">审核</button>
+                        {{#  } else { }}
+                             <span style="color: #b2e281">{{d.status == 1 ?'已审核成功':'已审核失败'}}</span>
+                        {{#  } }}
+                    </script>
+                </div>
+            </div>
+        </div>
+</div>
+{/block}
+{block name="script"}
+<script type="text/javascript">
+    layList.form.render();
+    layList.tableList('contactList',"{:Url('/super_finance')}",function () {
+        return [
+            {field: 'id', title: 'ID', sort: true,width:'5%'},
+            {field: 'fullname', title: '姓名'},
+            {field: 'bank_code', title: '支付宝账号'},
+            {field: 'draw_money', title: '提现金额'},
+            {field: 'fee', title: '手续费'},
+            {field: 'true_amount', title: '到账金额'},
+            {field: 'user_id', title: '会员ID'},
+            {field: 'nickname', title: '会员昵称'},
+            {field: 'remark', title: '备注'},
+            {field: 'audit_user_name', title: '审核人'},
+            {field: 'status_msg', title: '状态'},
+            {field: 'create_time', title: '添加时间'},
+            {field: 'update_time', title: '审核时间'},
+            {field:'status', title: '操作',  templet: '#action'}
+
+        ];
+    },10);
+    layList.date('time');
+    function updateStatus(id){
+        var type = 0;//默认不通过
+        var msg = '';
+        console.log(id)
+        layer.confirm('请确认是否通过', {
+            btn: ['通过','不通过'] //按钮
+        }, function(){
+            type = 1;
+            $.post('/super_finance_status',{type:1,'id':id,'remark':msg},function (ret) {
+                layer.msg(ret.msg)
+                if(ret.code ==0 )return layList.form.reload();
+            },'json')
+        }, function(){
+            layer.prompt({title: '请输入不通过原因', formType: 2}, function(pass, index){
+                $.post('/super_finance_status',{type:0,'id':id,'remark':pass},function (ret) {
+                    layer.msg(ret.msg)
+                    if(ret.code ==0 )return layList.form.reload();
+                },'json')
+            });
+
+        });
+    }
+    layList.search('search',function(where){
+
+        layList.reload(where,true);
+    });
+
+</script>
+{/block}

@@ -1,0 +1,33 @@
+1 socket 守护：
+command=php start.php start
+directory=/www/wwwroot/im/socket
+
+2 h5 伪静态设置：
+location / {
+	if (!-e $request_filename){
+		rewrite  ^(.*)$  /index.php?s=$1  last;   break;
+	}
+}
+
+3 php版本采用的是 7.3
+
+4 需要 mysql5.6 mongodb4.4.6 redis6.2.6 supervisor2.2 支持，默认空密码
+5 nginx1.20
+
+6 需要安装 ffmpeg
+wget http://download.bt.cn/install/ext/ffmpeg.sh && sh ffmpeg.sh
+
+
+7 安装 redis mongo 扩展，删除禁用函数
+
+8 wss 转发
+4 老版本普通的ws转发
+ws.pcandlove3318.com
+
+    location / {  
+        proxy_pass http://185.135.72.192:8383;    
+        proxy_http_version 1.1;  
+        proxy_set_header Upgrade $http_upgrade;  
+        proxy_set_header Connection "Upgrade";  
+        proxy_set_header Sec-Websocket-Version 13;
+    } 

@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/static/lib/html5shiv.js"></script>
+    <script type="text/javascript" src="/static/lib/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/static/static/h-ui/css/H-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="/static/static/h-ui.admin/css/H-ui.admin.css" />
+    <link rel="stylesheet" type="text/css" href="/static/lib/Hui-iconfont/1.0.8/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="/static/static/h-ui.admin/skin/default/skin.css" id="skin" />
+    <link rel="stylesheet" type="text/css" href="/static/static/h-ui.admin/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+    <!--[if IE 6]>
+    <script type="text/javascript" src="/static/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script>DD_belatedPNG.fix('*');</script>
+    <![endif]-->
+    <title>完善管理员资料</title>
+    
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 系统管理员中心 <span class="c-gray en">&gt;</span> 完善管理员资料 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">
+   <div class=" radius">
+                <div class="modal-header">
+                    <h3 class="modal-title">完善管理员资料</h3> 
+                  
+                </div>
+                <form method="POST" id="formAdd"  class="form form-horizontal">
+                <div class="modal-body"> 
+                  
+                   <div class="row cl">
+						<label class="form-label col-xs-4 col-sm-3">管理员名称：</label>
+						<div class="formControls col-xs-8 col-sm-9">
+							<input type="text" class="input-text radius" 
+                              id="admin_name" name="admin_name" autocomplete="off" 
+                              value="{$admin_name}" readOnly
+                              placeholder="管理员名称">
+                              <input type="hidden" class="input-text radius" 
+                              id="admin_id" name="admin_id" autocomplete="off" 
+                              value="{$admin_id}"/>
+						</div>
+					</div>
+                  
+                   <div class="row cl">
+						<label class="form-label col-xs-4 col-sm-3">手机号：</label>
+						<div class="formControls col-xs-8 col-sm-9">
+							<input type="text" maxlength="16" class="input-text radius"  
+                            id="admin_phone"  name="admin_phone" autocomplete="off"                            
+                             value="{$admin_phone}"
+                              placeholder=" 请输入手机号(11位)">
+						</div>
+				  </div>
+                  <div class="row cl">
+						<label class="form-label col-xs-4 col-sm-3">邮箱：</label>
+						<div class="formControls col-xs-8 col-sm-9">
+							<input type="text" maxlength="32" class="input-text radius"  
+                            id="admin_email"  name="admin_email" autocomplete="off"                            
+                              value="{$admin_email}"
+                              placeholder="请输入邮箱">
+						</div>
+					</div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" onClick="checkData();" class="btn btn-primary radius">确定</button>
+                    <button type="rest" class="btn radius" data-dismiss="modal" aria-hidden="true">关闭</button>
+                </div>
+                </form>
+          </div>   
+</div>
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="/static/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="/static/static/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="/static/static/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
+
+<script type="text/javascript" src="/static/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="/static/js/date_opt.js"></script>
+<script type="text/javascript">
+    //验证数据 
+
+$(function(){
+     $.ajax({
+                type:'get',
+                url:"{:url('/super_adminShow')}",
+                data:{
+                    id:'{$admin_id}'
+                },
+                success:function (data) {
+                 
+                    if(data.err == 0)
+                    {
+                        let adminObj = data.data;
+                         $("#admin_name").val(adminObj.username)
+                         $("#admin_phone").val(adminObj.phone)
+                         $("#admin_email").val(adminObj.email)
+                    }
+                    else
+                    {
+                       // layer.alert(data.msg);
+                    }
+                }
+     });
+})
+function checkData(){
+   let ret = true;
+     if($("#admin_phone").val().length==0 || 
+       ! (/^[1][3,4,5,7,8][0-9]{9}$/).test($("#admin_phone").val())){
+        ret = false;
+        $("#admin_phone").focus();
+         layer.msg(" 手机号11位！",{time:2000,icon:1});
+        return;
+    }
+
+    if($("#admin_email").val().length==0 || 
+       ! (/^([a-zA-Z]|[0-9])(\w|\-)+@[a-zA-Z0-9]+\.([a-zA-Z]{2,4})$/).test($("#admin_email").val())){
+        ret = false;
+        $("#admin_email").focus();
+         layer.msg("请输入正确的邮箱格式",{time:2000,icon:1});
+
+        
+        return;
+    }
+    
+   
+    if(ret)  submitSave();
+}
+
+function submitSave(){
+  let data = $("#formAdd").serialize(); 
+  $.ajax({
+        url: "{:url('/super_adminUpdate')}",
+        type: 'POST',
+        data: data,
+        async: false,      
+        success: function (data) {
+            if(data.err == 0){
+                layer.msg('提交成功！'); 
+                window.location.href = "{:url('/super_editInfo')}";
+            }else{
+                layer.msg(data.msg);
+            }
+        },
+        error: function (data) {
+        }
+    });
+}
+    
+</script>
+</body>
+</html>

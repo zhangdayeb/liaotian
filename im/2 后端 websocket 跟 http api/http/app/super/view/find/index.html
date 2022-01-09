@@ -1,0 +1,683 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/static/lib/html5shiv.js"></script>
+    <script type="text/javascript" src="/static/lib/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/static/static/h-ui/css/H-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="/static/static/h-ui.admin/css/H-ui.admin.css" />
+    <link rel="stylesheet" type="text/css" href="/static/lib/Hui-iconfont/1.0.8/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="/static/static/h-ui.admin/skin/default/skin.css" id="skin" />
+    <link rel="stylesheet" type="text/css" href="/static/static/h-ui.admin/css/style.css" />
+      <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+    <!--[if IE 6]>
+    <script type="text/javascript" src="/static/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script>DD_belatedPNG.fix('*');</script>
+    <![endif]-->
+    <title>客户(商家)管理</title>
+   <script type="text/javascript" src="/static/lib/jquery/1.9.1/jquery.min.js"></script>
+
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 客户(商家)管理 <span class="c-gray en">&gt;</span> 客户(商家)列表 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">
+    <form method="get" action="{:url('/super_findList')}">
+        <input type="hidden" name="act" value="check">
+        <div class="text-l"> 日期范围(添加时间)：
+            <input type="text" onfocus="selecttime('start')" id="datemin" class="input-text Wdate" style="width:120px;" name="start_time" value="{if condition='isset($key.start_time)'}{$key.start_time}{/if}">
+            -
+            <input type="text" onfocus="selecttime('end')" id="datemax" class="input-text Wdate" style="width:120px;" name="end_time" value="{if condition='isset($key.end_time)'}{$key.end_time}{/if}">
+            <input type="text" class="input-text" style="width:250px" placeholder="请输入客户(商家)网站名称" id="" name="key" value="{if condition='isset($key.key)'}{$key.key}{/if}">
+            <button type="submit" class="btn btn-success radius" id="" name=""><i class="Hui-iconfont">&#xe665;</i> 搜索</button>
+        </div>
+    </form> 
+    <div style="margin-top: 10px;">
+      <p><button class="btn radius btn-primary size-S" onClick="modaldemo()">
+      <i class="Hui-iconfont">&#xe600;</i> 添加客户(商家)</button></p>
+   
+        <table class="table table-border table-bordered table-hover table-bg table-sort">
+            <thead>
+            <tr class="text-c">
+               
+                 <th width="40">网站标识</th>
+                <th width="100">网站名称</th>
+                <th width="100">网站URL</th>
+                <th width="30">端口</th>
+                <th width="45">网站Logo图标</th>
+                <th width="45">客服人员</th>
+                <th width="60">创建时间</th>
+                <th width="40">状态</th>
+                <th width="60">操作</th>
+            </tr>
+            </thead>
+            <tbody>
+               {volist name='list' id='f'}
+                    <tr class="text-c">
+                        
+                        <td>{$f.agent_id}</td>
+                        <td>{$f.appName}</td>
+                        <td>{$f.url}</td>
+                        <td>{$f.port}</td>
+                        <td><img src="//{$_SERVER['HTTP_HOST']}{$f.logo_url}" width="30px" height="30px" /></td>
+                        <td> {$f.username} </td>
+                        <td> {:date('Y-m-d H:i:s',$f.create_time)}</td>                      
+                        <td>
+                                {if ($f.status=='0')} 
+                                      <span class="label label-success radius" >已启用</span>
+                                {else/}
+                                     <span class="label label-disabled  radius" >禁用</span>
+                                {/if}
+                       </td>
+                       <td>
+                             {if ($f.status=='0')} 
+                                      <button class="btn radius btn-primary size-S"
+                                        onclick="changeGameStatus(this,'{$f.id}','{$f.appName}',1)" 
+                                       >禁用
+                                        </button>
+                                {else/}
+                                     <button class="btn radius btn-primary size-S" 
+                                        onclick="changeGameStatus(this,'{$f.id}','{$f.appName}',0)" 
+                                        >启用
+                                        </button>
+                                {/if}
+                             <button class="btn radius btn-primary size-S" onclick="selectService(this,'{$f.id}','{$f.agent_id}','{$f.is_customer_service}')">启/禁客服</button>
+                             <button class="btn radius btn-primary size-S" onclick="edit(this,'{$f.id}')">编辑</button> 
+                                
+                             <button class="btn radius btn-primary size-S"  onclick="del(this,'{$f.id}')">删除</button>
+                               
+                       </td>
+                    </tr>
+               {/volist}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="mt-15">
+       {$findlist->appends($key)->render()|raw}
+    </div>
+
+    <div id="modal-demo" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content radius">
+                <div class="modal-header">
+                    <h3 class="modal-title">添加网站)</h3>
+                    <a class="close" data-dismiss="modal" aria-hidden="true" href="javascript:void();">×</a>
+                </div>
+                <form method="POST" id="formAdd"  class="form form-horizontal">
+                <div class="modal-body"> 
+                   <!--<div class="row cl">-->
+						<!--<label class="form-label col-xs-4 col-sm-3">客户标识</label>-->
+						<!--<div class="formControls col-xs-8 col-sm-9">-->
+							<!--<input type="number" class="input-text radius" -->
+                              <!--id="agent_id" name="agent_id" autocomplete="off" -->
+                              <!--onblur="checkAgentId(this);"-->
+                              <!--placeholder="客户标识">-->
+						<!--</div>-->
+					<!--</div>-->
+                    <div class="formControls col-xs-8 col-sm-9">
+                        <input type="hidden" class="input-text radius"
+                               id="agent_id" name="agent_id" value="1"
+                               placeholder="客户标识">
+                    </div>
+                   <div class="row cl">
+						<label class="form-label col-xs-4 col-sm-3">游戏网站名称：</label>
+						<div class="formControls col-xs-8 col-sm-9">
+							<input type="text" class="input-text radius" 
+                              id="appName" name="appName" autocomplete="off" 
+                              placeholder="游戏网站名称">
+						</div>
+					</div>
+                    <div class="row cl">
+						<label class="form-label col-xs-4 col-sm-3">URL：</label>
+						<div class="formControls col-xs-8 col-sm-9">
+							<input type="url" class="input-text radius" id="url" name="url" 
+                               autocomplete="off" placeholder="http://xxxx.xxx">
+						</div>
+					</div>
+                   <div class="row cl">
+						<label class="form-label col-xs-4 col-sm-3">端口：</label>
+						<div class="formControls col-xs-8 col-sm-9">
+							<input type="text" maxlength="4" class="input-text radius"  id="port"  name="port" autocomplete="off"                            
+                              onkeyup="value=value.replace(/[^\d]/g,'')"
+                              placeholder="端口(4位数字)">
+						</div>
+					</div>
+                 <div class="row cl">
+                 
+
+						<label class="form-label col-xs-4 col-sm-3">网站Logo图标：</label>
+						<div class="formControls col-xs-8 col-sm-9">
+							<span class="btn-upload form-group">
+                                <img id="img" width="30px" height="30px" />
+                                 <input  type="file" name="logo" id="uploadfile-1" readonly>
+                                 <input type="hidden"   id="logo_url" name="logo_url" class="input-file">
+                            </span>
+						</div>
+					</div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" onClick="checkData(this);" class="btn btn-primary radius">确定</button>
+                    <button type="rest" class="btn radius" data-dismiss="modal" aria-hidden="true">关闭</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 编辑-->
+     <div id="modal-edit" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content radius">
+                <div class="modal-header">
+                    <h3 class="modal-title">编辑客户(商家)</h3> 
+                    <a class="close" data-dismiss="modal" aria-hidden="true" href="javascript:void();">×</a>
+                </div>
+                <form method="POST" id="formEdit"  class="form form-horizontal">
+                <div class="modal-body">
+                 <div class="row cl">
+						<label class="form-label col-xs-4 col-sm-3">客户标识</label>
+						<div class="formControls col-xs-8 col-sm-9">
+							<input type="number" class="input-text radius" 
+                              id="edit_agent_id" name="agent_id" autocomplete="off" 
+                              onkeyup="value=value.replace(/[^\d]/g,'')"
+                              readonly
+                              placeholder="客户标识">
+						</div>
+					</div>
+                   <div class="row cl">
+						<label class="form-label col-xs-4 col-sm-3">游戏网站名称：</label>
+						<div class="formControls col-xs-8 col-sm-9">
+                            <input type="hidden" id="edit_id" name="id" />
+							<input type="text" class="input-text radius" 
+                              id="edit_appName" name="appName" autocomplete="off" 
+                              placeholder="游戏网站名称">
+						</div>
+					</div>
+                    <div class="row cl">
+						<label class="form-label col-xs-4 col-sm-3">URL：</label>
+						<div class="formControls col-xs-8 col-sm-9">
+							<input type="url" class="input-text radius" id="edit_url" name="url" 
+                               autocomplete="off" placeholder="http://xxxx.xxx">
+						</div>
+					</div>
+                   <div class="row cl">
+						<label class="form-label col-xs-4 col-sm-3">端口：</label>
+						<div class="formControls col-xs-8 col-sm-9">
+							<input type="text" maxlength="4" class="input-text radius"  id="edit_port"  name="port" autocomplete="off"
+                            
+                              onkeyup="value=value.replace(/[^\d]/g,'')"
+                              placeholder="端口(4位数字)">
+						</div>
+					</div>
+                 <div class="row cl">
+                 
+
+						<label class="form-label col-xs-4 col-sm-3">网站Logo图标：</label>
+						<div class="formControls col-xs-8 col-sm-9">
+							<span class="btn-upload form-group">
+                                 <img id="edit_img" width="30px" height="30px" />
+                                 <input  type="file" name="logo" id="uploadfile-1" readonly>
+                                 <input type="hidden"   id="edit_logo_url" name="logo_url" class="input-file">
+                            </span>
+						</div>
+					</div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" onClick="checkEditData(this);" class="btn btn-primary radius">确定</button>
+                    <button type="rest" class="btn radius" data-dismiss="modal" aria-hidden="true">关闭</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal-selectService-->
+     <div id="modal-selectService" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content radius">
+                <div class="modal-header">
+                    <h3 class="modal-title">启/禁用客服</h3> 
+                    <a class="close" data-dismiss="modal" aria-hidden="true" href="javascript:void();">×</a>
+                </div>
+                <form method="POST" id="formService"  class="form form-horizontal">
+                <div class="modal-body">
+                 <div class="row cl">
+						<label class="formControls col-xs-12 col-sm-12">设置为在线客服，请勾选下列会员名称</label>
+                 </div>
+                 <div class="row cl">
+			
+						<div class="formControls col-xs-12 col-sm-12">
+                            <p id="checkboxStr" ></p>
+							<input type="hidden" class="input-text radius" 
+                              id="service_agent_id" name="agent_id" />
+                              <input type="hidden" class="input-text radius" 
+                              id="service_id" name="id" />
+						</div>
+					</div>
+                  
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" onClick="changeServiceCheck(this);" class="btn btn-primary radius">确定</button>
+                    <button type="rest" class="btn radius" data-dismiss="modal" aria-hidden="true">关闭</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--_footer 作为公共模版分离出去-->
+
+
+<script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="/static/static/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="/static/static/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
+
+<script type="text/javascript" src="/static/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="/static/js/date_opt.js"></script>
+<script type="text/javascript">
+   function modaldemo(){
+        $("#img").hide();
+	    $("#modal-demo").modal("show")       
+    }
+
+
+    $(document).on('change',"input[name='logo']", function(){
+  // $("input[name='logo']").change(function(){
+  
+    f=this.files[0];
+    var reader = new FileReader();
+    reader.readAsDataURL(f);
+    reader.onload = function(e){
+        // $('#index_ppt').attr('src',e.target.result);
+        img  = e.target.result;
+    }
+    var fd = new FormData();
+    var img = $(this).prev();
+    var imgpath = $(this).next();
+    
+    fd.append("file", f);
+    $.ajax({
+        url: "{:url('/super_imgupload')}" ,
+        type: 'POST',
+        data: fd,
+        async: false,
+        cache: false,
+        contentType: false,
+        processData: false,
+        success: function (data) {
+            if(data.error == 0){
+                layer.msg('上传成功');
+                img.removeClass('noshow');
+                img.attr('src',data.msg);
+                 $("#img").show();
+                 let src = "//{$_SERVER['HTTP_HOST']}"+ data.msg
+                 $("#img").attr('src',src)
+                imgpath.val(data.msg);
+            }else{
+                layer.msg(data.msg);
+            }
+        },
+        error: function (data) {
+
+        }
+    });   
+});
+
+
+
+// 
+function checkAgentId(obj){
+    let agent_id =  $(obj).val()
+    let data = {agent_id: agent_id};
+   
+    $.ajax({
+        url: "{:url('/super_checkAgentId')}",
+        type: 'POST',
+        data: data,
+        async: false,      
+        success: function (data) {
+            if(data.err == 0){
+                layer.msg('客户标识符:'+agent_id +'已经存在，请重新输入');  
+                $(obj).val('');
+                $(obj).focus();
+            }
+        },
+        error: function (data) {
+        }
+    });
+}
+
+//验证数据
+function checkData(obj){
+   let ret = true;
+
+   let port = $("#port").val();
+
+   
+     if ($("#agent_id").val().length==0 || isNaN($("#agent_id").val())){
+        ret = false;
+        $("#agent_id").focus();
+        alert("请确认客户标识是否为数字！");
+        return;
+    }
+
+    if($("#appName").val().length==0){
+        ret = false;
+        $("#appName").focus();
+        alert("名称不能为空！");
+        return;
+    }
+    if($("#url").val().length==0 || 
+       ! (/^([hH][tT]{2}[pP]:\/\/|[hH][tT]{2}[pP][sS]:\/\/)(([A-Za-z0-9-~]+).)+([A-Za-z0-9-~\/])+$/).test($("#url").val())){
+        ret = false;
+       
+        $("#url").focus();
+        alert("请检查URL是否为空或格式是否正确！");
+        return;
+    }
+     
+     if ((port.length!=4 &&  port!=80) || isNaN(port)){
+        ret = false;
+        $("#port").focus();
+        alert("请确认端口是否为4位数字！");
+        return;
+    }
+
+     if($("#logo_url").val().length ==0  ){
+        ret = false;
+        $("#logo_url").focus();
+        alert("请选择APP应用图标！");
+        return;
+    }
+   
+      if(ret)  submitSave(obj);
+   
+  
+}
+
+//提交数据
+function submitSave(obj){
+  let data = $("#formAdd").serialize();
+  $.ajax({
+        url: "{:url('/super_addGame')}",
+        type: 'POST',
+        data: data,
+        async: false,      
+        success: function (data) {
+            if(data.err == 0){
+                layer.msg('提交成功！');  
+                $(obj).next().click(); 
+                window.location.href = "{:url('/super_findList')}";
+
+            }else{
+                layer.msg(data.msg);
+            }
+        },
+        error: function (data) {
+
+        }
+    });
+}
+
+
+function checkEditData(obj){
+  let ret = true;
+
+   let port = $("#edit_port").val();
+
+    if($("#edit_appName").val().length==0){
+        ret = false;
+        $("#edit_appName").focus();
+        alert("游戏名称不能为空！");
+        return;
+    }
+    if($("#edit_url").val().length==0 || 
+       ! (/^([hH][tT]{2}[pP]:\/\/|[hH][tT]{2}[pP][sS]:\/\/)(([A-Za-z0-9-~]+).)+([A-Za-z0-9-~\/])+$/).test($("#edit_url").val())){
+        ret = false;
+       
+        $("#edit_url").focus();
+        alert("请检查URL是否为空或格式是否正确！");
+        return;
+    }
+     
+     if ((port.length!=4 &&  port!=80) || isNaN(port)){
+        ret = false;
+        $("#edit_port").focus();
+        alert("请确认端口是否为4位数字！");
+        return;
+    }
+
+     if($("#edit_logo_url").val().length ==0  ){
+        ret = false;
+        $("#edit_logo_url").focus();
+        alert("请选择APP应用图标！");
+        return;
+    }
+   
+      if(ret)  submitUpdate(obj);
+   
+}
+
+function submitUpdate(obj){
+     let data = $("#formEdit").serialize();
+    
+     $.ajax({
+        url: "{:url('/super_updateGame')}",
+        type: 'POST',
+        data: data,
+        async: false,      
+        success: function (data) {
+           
+            if(data.err == 0){
+                layer.msg('提交成功！');  
+                $(obj).next().click(); 
+                window.location.href = "{:url('/super_findList')}";
+
+            }else{
+                layer.msg(data.msg);
+            }
+        },
+        error: function (data) {
+
+        }
+    });
+}
+
+function changeGameStatus(obj,id,name,act){
+   
+   if(act == 1)
+        {
+            var m = '您确定要禁止游戏参数<span style="color: red">'+name+'</span>吗？';
+            var btn = '禁止';
+            var su = '游戏参数<span style="color: red">'+name+'</span>已经成功被禁止';
+        }
+        else
+        {
+            var m = '您确定把游戏参数<span style="color: red">'+name+'</span>的状态改为正常吗？';
+            var btn = '恢复';
+            var su = '游戏参数<span style="color: red">'+name+'</span>的状态已经成功恢复为正常';
+        }
+        layer.confirm(m,{
+            title:'请您确认',
+            btn:[btn,'取消'],
+            icon:0
+        },function () {
+            
+            $.ajax({
+                type:'post',
+                url:"{:url('/super_changeGameStatus')}",
+                data:{
+                    id:id,
+                    act:act
+                },
+                success:function (data) {
+                    if(data.err == 0)
+                    {
+                    
+                        layer.msg(su,{time:1500,icon:1});
+                        window.location.href = "{:url('/super_findList')}";
+                        
+                    }
+                    else
+                    {
+                        layer.alert(data.msg);
+                    }
+                }
+            });
+           
+        });
+}
+
+function selectService(obj,id,agent_id,service){
+      let is_customer_service = service.split(",")
+ 
+      $("#modal-selectService").modal("show")
+       $.ajax({
+            type:'get',
+            url:"{:url('/super_getMemberByagent')}",
+            data:{
+                agent_id:agent_id
+            },
+            success:function (data) {
+               
+                if(data.err == 0)
+                {
+                    let checkboxStr=''
+                    let serviceObj = data.data;
+                    serviceObj.map(function(value,index){
+                        let checkedstr = ''
+                        let _index = is_customer_service.indexOf(value.id.toString());
+                          
+                        if(_index >= 0){
+                            checkedstr = ' checked'
+                          
+                        }
+                        checkboxStr += `<div class=" formControls col-xs-4 col-sm-4 check-box"><input type="checkbox" id="checkbox_${value.id}" ${checkedstr}  value="${value.id}" >
+                            <label for="checkbox-"${value.id}">${value.username}</label> </div>`
+                    })
+                    $("#checkboxStr").html(checkboxStr)
+                    $("#service_agent_id").val(agent_id);
+                     $("#service_id").val(id);
+                }
+                else
+                {
+                    // layer.alert(data.msg);
+                }
+            }
+     });
+}
+
+function changeServiceCheck(obj){
+    let vals = [];
+    let agent_id = $("#service_agent_id").val();
+    let id = $("#service_id").val();
+        
+    $.each($('input:checkbox:checked'),function(){
+        vals.push($(this).val());
+    });
+
+   if(vals.length == 0){
+       layer.msg('请选择至少一个客服！',{time:3000,icon:1}); 
+       return
+   }
+    
+     $.ajax({
+        type:'post',
+        url:"{:url('/super_updateService')}",
+        data:{
+            is_customer_service:vals,
+            agent_id:agent_id,
+            id:id
+        },
+        success:function (data) {
+         
+            if(data.err == 0)
+            {
+               
+                $(obj).next().click(); 
+                window.location.href = "{:url('/super_findList')}";
+                
+            }
+            else
+            {
+                layer.alert(data.msg);
+            }
+        }
+    });
+}
+
+function edit(obj,id){
+
+      $("#modal-edit").modal("show")
+      $.ajax({
+                type:'get',
+                url:"{:url('/super_gameShow')}",
+                data:{
+                    id:id
+                },
+                success:function (data) {
+                 
+                    if(data.err == 0)
+                    {
+                        let gameObj = data.data;
+                         $("#edit_agent_id").val(gameObj.agent_id)
+                        $("#edit_id").val(gameObj.id)
+                        $("#edit_appName").val(gameObj.appName)
+                        $("#edit_url").val(gameObj.url)
+                        $("#edit_port").val(gameObj.port)
+                          $("#edit_logo_url").val(gameObj.logo_url)
+                        let src = "//{$_SERVER['HTTP_HOST']}"+ gameObj.logo_url
+                        $("#edit_img").attr('src',src)
+                    }
+                    else
+                    {
+                       // layer.alert(data.msg);
+                    }
+                }
+     });
+}
+
+function del(obj,id){
+     let m = '您确定要删除吗？';
+     let su = '已经成功被删除';
+   layer.confirm(m,{
+            title:'请您确认',
+            btn:['删除','取消'],
+            icon:0
+        }, function () {
+            
+            $.ajax({
+                type:'post',
+                url:"{:url('/super_gameDel')}",
+                data:{
+                    id:id
+                },
+                success:function (data) {
+                 
+                    if(data.err == 0)
+                    {
+                        layer.msg(su,{time:1500,icon:1});
+                        window.location.href = "{:url('/super_findList')}";
+                        
+                    }
+                    else
+                    {
+                        layer.alert(data.msg);
+                    }
+                }
+            });
+        });   
+}
+</script>
+</body>
+</html>

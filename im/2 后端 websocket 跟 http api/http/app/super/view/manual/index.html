@@ -1,0 +1,113 @@
+{extend name="/common/page_container" /}
+{block name="content"}
+<style>
+    .form-content{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        padding-left: 10%;
+        padding-top: 20px;
+    }
+    .form-content-left{
+        width: 30%;
+    }
+    .form-content-right{
+        width: 400px;
+        border: 1px solid black;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+    }
+    .form-content-right div{
+        padding: 5px;
+    }
+</style>
+<div class="form-content">
+    <div class="form-content-right">
+        <div>会员昵称：<span id="username"></span></div>
+        <div>会员余额：<span id="money"></span></div>
+        <div>操作后金额：<span id="final_money"></span></div>
+    </div>
+    <div class="form-content-left">
+        <form class="layui-form" action="">
+            <div class="layui-form-item">
+                <label class="layui-form-label">会员账号/ID</label>
+                <div class="layui-input-block">
+                    <input type="text" name="key"  oninput="getUserInfo(this)" required  lay-verify="required" placeholder="请输入会员账号/会员ID" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">操作金额</label>
+                <div class="layui-input-block">
+                    <input type="text" name="amount" oninput="cualAmount(this)" required  lay-verify="required" placeholder="请输入会员账号/会员ID" autocomplete="off" class="layui-input">
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">操作类型</label>
+                <div class="layui-input-block">
+                    <select name="type" lay-verify="required">
+                        <option value="1">加钱</option>
+                        <option value="0">扣钱</option>
+                    </select>
+                </div>
+            </div>
+            <div class="layui-form-item layui-form-text">
+                <label class="layui-form-label">备注</label>
+                <div class="layui-input-block">
+                    <textarea name="remark" placeholder="请输入内容"  maxlength="50" class="layui-textarea"></textarea>
+                </div>
+            </div>
+            <div class="layui-form-item">
+                <div class="layui-input-block">
+                    <button class="layui-btn" lay-submit lay-filter="submit">立即提交</button>
+                    <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+{/block}
+{block name="script"}
+<script type="text/javascript">
+    layList.form.render();
+    layui.use('form', function(){
+        var form = layui.form;
+
+        //监听提交
+        form.on('submit(submit)', function(data){
+            var json =data.field;
+            $.post('/super_update_amount',json,function (ret) {
+                layer.msg(ret.msg);
+               if(ret.err == 0){
+                   form.reset();
+               }
+            },'json');
+            return false;
+        });
+    });
+    function getUserInfo(dom) {
+        console.log($(dom).val());
+        $.get('/super_userInfo',{'key':$(dom).val().trim()},function (ret) {
+            console.log(ret)
+                if(ret.err == 0){
+                    $("#username").text(ret.data.username);
+                     $("#money").text(ret.data.money);
+                }else {
+                    $("#username").text('');
+                    $("#money").text('');
+                    $("#amount").text('');
+                }
+        },'json');
+    }
+    function cualAmount(dom) {
+        var val =$(dom).val().trim();
+        if(val == '')val = 0;
+        var amount = parseFloat(val);
+        console.log(amount)
+
+        var money = parseFloat($("#money").text());
+        $("#final_money").text((money+amount).toFixed(2))
+    }
+</script>
+{/block}

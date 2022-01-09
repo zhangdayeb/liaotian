@@ -1,0 +1,1787 @@
+[ 2021-12-31T12:24:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001859s ]
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\CommonController.class.php 第 6 行.
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `caipiao_setting` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `caipiao_setting` WHERE `name` IN ('webtitle','keywords','description','iskillorder','sysBankMaxNum','tikuanMin','tikuanMax','ritikuanxiane','tikuanstart','tikuanend','tikuannum','tikuannumoverbilv','tikuannumovermin','tikuannumovermax','paiduinum','pointchongzhi','pointchongzhiadd','pointtouzhu','pointtouzhuadd','pointhuisun','pointhuisunadd','kefuthree','bindcardamount','newmemberrecharge','newmemberrechargeamount','activity_cz0_money','activity_cz0_zsmoney','activity_cz1_money','activity_cz1_zsmoney','activity_cz2_money','activity_cz2_zsmoney','riCommissionBase0_0','riCommissionBase0_1','riCommissionBase1_2','riCommissionBase2_0','riCommissionBase2_1','riCommissionBase2_2','yueCommissionBase0_0','yueCommissionBase0_1','yueCommissionBase0_2','yueCommissionBase1_0','yueCommissionBase1_1','yueCommissionBase1_2','yueCommissionBase2_0','yueCommissionBase2_1','yueCommissionBase2_2','riKuisunBase0_0','riKuisunBase0_1','riKuisunBase0_2','riKuisunBase1_0','riKuisunBase1_1','riKuisunBase1_2','riKuisunBase2_0','riKuisunBase2_1','riKuisunBase2_2','yueKuisunBase0_0','yueKuisunBase0_1','yueKuisunBase0_2','yueKuisunBase1_0','yueKuisunBase1_1','yueKuisunBase1_2','yueKuisunBase2_0','yueKuisunBase2_1','yueKuisunBase2_2','agentBonusBase0_0','agentBonusBase0_1','agentBonusBase1_0','agentBonusBase1_1','agentBonusBase2_0','agentBonusBase2_1','agentBonusBase3_0','agentBonusBase3_1','loginerrornum_q','loginerrorclosetime_q','ipblackisopen','ipblacklist','ipwhiteisopen','ipwhitelist','pointexchangeamount','kefuqq','defaulttjcode','agent_commission_open','bancountry')  [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `caipiao_caipiao` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `caipiao_caipiao` WHERE `isopen` = 1 ORDER BY listorder asc  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `caipiao_gonggao` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `caipiao_gonggao` ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `caipiao_payset` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `caipiao_payset` WHERE `state` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_membergroup` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `caipiao_membergroup`  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: min_wxzhixfs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_wxzhixfs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_wxzhixds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_wxzhixds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_wxzxyel D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_wxzxyel D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_wxzxls D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_wxzxls D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_wxzxsl D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_wxzxsl D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_wxzxel D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_wxzxel D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_wxzxyl D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_wxzxyl D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_wxzxw D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_wxzxw D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sixzhixfsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sixzhixfsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sixzhixdsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sixzhixdsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_hsizxes D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_hsizxes D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_hsizxye D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_hsizxye D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_hsizxl D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_hsizxl D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_hsizxs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_hsizxs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzhixfsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzhixfsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzhixdsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzhixdsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzuxzsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzuxzsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzuxzlq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzuxzlq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxhhzxq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxhhzxq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_qszsds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_qszsds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_qszlds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_qszlds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzhixfsz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzhixfsz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzhixdsz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzhixdsz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzuxzsz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzuxzsz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzuxzlz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzuxzlz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxhhzxz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxhhzxz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zszsds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zszsds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zszlds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zszlds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzhixfsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzhixfsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzhixdsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzhixdsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzuxzsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzuxzsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxzuxzlh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxzuxzlh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_sxhhzxh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_sxhhzxh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_hszsds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_hszsds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_hszlds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_hszlds D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_exzhixfsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_exzhixfsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_exzhixdsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_exzhixdsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_exzhixfsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_exzhixfsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_exzhixdsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_exzhixdsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_exzuxfsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_exzuxfsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_exzuxdsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_exzuxdsq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_exzuxfsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_exzuxfsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_exzuxdsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_exzuxdsh D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dweid D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dweid D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zuxcsbd D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zuxcsbd D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zuxzsbd D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zuxzsbd D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zuxhsbd D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zuxhsbd D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zuxcebd D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zuxcebd D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zuxhebd D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zuxhebd D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdwqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdwqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdwzs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdwzs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdwhs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdwhs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdw5x1m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdw5x1m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdw5x2m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdw5x2m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdw5x3m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdw5x3m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdw4x1m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdw4x1m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdw4x2m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdw4x2m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdwqs2m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdwqs2m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdwzs2m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdwzs2m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_bdwhs2m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_bdwhs2m D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_kuaduqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_kuaduqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_kuaduzs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_kuaduzs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_kuaduhs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_kuaduhs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_kuaduqe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_kuaduqe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_kuaduhe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_kuaduhe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dxdsqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dxdsqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dxdshs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dxdshs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dxdsqe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dxdsqe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dxdshe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dxdshe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zhixhzqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zhixhzqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zhixhzzs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zhixhzzs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zhixhzhs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zhixhzhs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zhixhzqe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zhixhzqe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zhixhzhe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zhixhzhe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zuxhzqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zuxhzqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zuxhzzs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zuxhzzs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zuxhzhs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zuxhzhs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zuxhzqe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zuxhzqe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_zuxhzhe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_zuxhzhe D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_qwyffs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_qwyffs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_qwhscs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_qwhscs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_qwsxbx D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_qwsxbx D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_qwsjfc D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_qwsjfc D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lhwq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lhwq D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lhwb D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lhwb D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lhws D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lhws D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lhwg D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lhwg D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lhqb D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lhqb D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lhqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lhqs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lhqg D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lhqg D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lhbs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lhbs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lhbg D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lhbg D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lhsg D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lhsg D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d1q_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d1q_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d1q_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d1q_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d1q_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d1q_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d1q_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d1q_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d2q_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d2q_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d2q_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d2q_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d2q_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d2q_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d2q_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d2q_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d3q_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d3q_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d3q_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d3q_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d3q_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d3q_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d3q_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d3q_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d4q_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d4q_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d4q_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d4q_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d4q_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d4q_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d4q_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d4q_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d5q_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d5q_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d5q_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d5q_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d5q_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d5q_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_d5q_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_d5q_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_zongh_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_zongh_da D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_zongh_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_zongh_xiao D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_zongh_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_zongh_dan D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_zongh_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_zongh_shuang D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d1q_eq0 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d1q_eq0 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d1q_eq1 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d1q_eq1 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d1q_eq2 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d1q_eq2 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d1q_eq3 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d1q_eq3 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d1q_eq4 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d1q_eq4 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d1q_eq5 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d1q_eq5 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d1q_eq6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d1q_eq6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d1q_eq7 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d1q_eq7 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d1q_eq8 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d1q_eq8 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d1q_eq9 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d1q_eq9 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d2q_eq0 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d2q_eq0 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d2q_eq1 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d2q_eq1 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d2q_eq2 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d2q_eq2 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d2q_eq3 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d2q_eq3 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d2q_eq4 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d2q_eq4 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d2q_eq5 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d2q_eq5 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d2q_eq6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d2q_eq6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d2q_eq7 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d2q_eq7 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d2q_eq8 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d2q_eq8 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d2q_eq9 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d2q_eq9 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d3q_eq0 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d3q_eq0 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d3q_eq1 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d3q_eq1 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d3q_eq2 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d3q_eq2 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d3q_eq3 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d3q_eq3 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d3q_eq4 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d3q_eq4 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d3q_eq5 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d3q_eq5 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d3q_eq6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d3q_eq6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d3q_eq7 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d3q_eq7 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d3q_eq8 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d3q_eq8 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d3q_eq9 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d3q_eq9 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d4q_eq0 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d4q_eq0 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d4q_eq1 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d4q_eq1 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d4q_eq2 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d4q_eq2 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d4q_eq3 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d4q_eq3 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d4q_eq4 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d4q_eq4 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d4q_eq5 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d4q_eq5 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d4q_eq6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d4q_eq6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d4q_eq7 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d4q_eq7 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d4q_eq8 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d4q_eq8 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d4q_eq9 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d4q_eq9 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d5q_eq0 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d5q_eq0 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d5q_eq1 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d5q_eq1 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d5q_eq2 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d5q_eq2 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d5q_eq3 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d5q_eq3 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d5q_eq4 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d5q_eq4 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d5q_eq5 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d5q_eq5 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d5q_eq6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d5q_eq6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d5q_eq7 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d5q_eq7 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d5q_eq8 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d5q_eq8 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_dan_d5q_eq9 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_dan_d5q_eq9 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_qs_bz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_qs_bz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_qs_sz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_qs_sz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_qs_dz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_qs_dz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_qs_bs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_qs_bs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_qs_z6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_qs_z6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_zs_bz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_zs_bz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_zs_sz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_zs_sz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_zs_dz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_zs_dz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_zs_bs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_zs_bs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_zs_z6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_zs_z6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_hs_bz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_hs_bz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_hs_sz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_hs_sz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_hs_dz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_hs_dz D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_hs_bs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_hs_bs D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_hs_z6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_hs_z6 D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_lh_l D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_lh_l D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_lh_hu D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_lh_hu D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+NOTIC: [8] Undefined index: min_lmp_lh_he D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 61 行.
+NOTIC: [8] Undefined index: max_lmp_lh_he D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `caipiao_wanfa` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3ethfx' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3ethdx' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3ebthbz' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3sthdx' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3sthtx' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3sbthbz' LIMIT 1   [ RunTime:0.0034s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3slhtx' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3slhdx' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz3' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz4' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz5' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz6' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz7' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz8' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz9' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz10' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz11' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz12' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz13' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz14' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz15' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz16' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz17' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hz18' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hzbig' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hzsmall' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hzodd' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'k3' AND `playid` = 'k3hzeven' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'wxzhixfs' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'wxzhixds' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'wxzxyel' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'wxzxls' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'wxzxsl' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'wxzxel' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'wxzxyl' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'wxzxw' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sixzhixfsh' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sixzhixdsh' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'hsizxes' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'hsizxye' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'hsizxl' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'hsizxs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzhixfsq' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzhixdsq' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzuxzsq' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzuxzlq' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxhhzxq' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'qszsds' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'qszlds' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzhixfsz' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzhixdsz' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzuxzsz' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzuxzlz' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxhhzxz' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zszsds' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zszlds' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzhixfsh' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzhixdsh' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzuxzsh' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxzuxzlh' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'sxhhzxh' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'hszsds' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'hszlds' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'exzhixfsq' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'exzhixdsq' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'exzhixfsh' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'exzhixdsh' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'exzuxfsq' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'exzuxdsq' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'exzuxfsh' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'exzuxdsh' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dweid' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zuxcsbd' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zuxzsbd' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zuxhsbd' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zuxcebd' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zuxhebd' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdwqs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdwzs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdwhs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdw5x1m' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdw5x2m' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdw5x3m' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdw4x1m' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdw4x2m' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdwqs2m' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdwzs2m' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'bdwhs2m' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'kuaduqs' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'kuaduzs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'kuaduhs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'kuaduqe' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'kuaduhe' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dxdsqs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dxdshs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dxdsqe' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dxdshe' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zhixhzqs' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zhixhzzs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zhixhzhs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zhixhzqe' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zhixhzhe' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zuxhzqs' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zuxhzzs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zuxhzhs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zuxhzqe' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'zuxhzhe' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'qwyffs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'qwhscs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'qwsxbx' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'qwsjfc' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lhwq' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lhwb' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lhws' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lhwg' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lhqb' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lhqs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lhqg' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lhbs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lhbg' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lhsg' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d1q_da' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d1q_xiao' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d1q_dan' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d1q_shuang' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d2q_da' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d2q_xiao' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d2q_dan' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d2q_shuang' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d3q_da' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d3q_xiao' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d3q_dan' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d3q_shuang' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d4q_da' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d4q_xiao' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d4q_dan' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d4q_shuang' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d5q_da' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d5q_xiao' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d5q_dan' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_d5q_shuang' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_zongh_da' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_zongh_xiao' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_zongh_dan' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_zongh_shuang' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d1q_eq0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d1q_eq1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d1q_eq2' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d1q_eq3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d1q_eq4' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d1q_eq5' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d1q_eq6' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d1q_eq7' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d1q_eq8' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d1q_eq9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d2q_eq0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d2q_eq1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d2q_eq2' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d2q_eq3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d2q_eq4' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d2q_eq5' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d2q_eq6' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d2q_eq7' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d2q_eq8' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d2q_eq9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d3q_eq0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d3q_eq1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d3q_eq2' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d3q_eq3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d3q_eq4' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d3q_eq5' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d3q_eq6' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d3q_eq7' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d3q_eq8' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d3q_eq9' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d4q_eq0' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d4q_eq1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d4q_eq2' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d4q_eq3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d4q_eq4' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d4q_eq5' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d4q_eq6' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d4q_eq7' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d4q_eq8' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d4q_eq9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d5q_eq0' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d5q_eq1' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d5q_eq2' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d5q_eq3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d5q_eq4' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d5q_eq5' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d5q_eq6' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d5q_eq7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d5q_eq8' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'dan_d5q_eq9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_qs_bz' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_qs_sz' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_qs_dz' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_qs_bs' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_qs_z6' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_zs_bz' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_zs_sz' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_zs_dz' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_zs_bs' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_zs_z6' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_hs_bz' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_hs_sz' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_hs_dz' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_hs_bs' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_hs_z6' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_lh_l' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_lh_hu' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'ssc' AND `playid` = 'lmp_lh_he' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'bjpk10qian1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'bjpk10qian2' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'bjpk10qian2ds' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'bjpk10qian3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'bjpk10qian3ds' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'bjpk10qian4' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'bjpk10qian4ds' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'bjpk10qian5' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'bjpk10qian5ds' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'bjpk10dwd' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d1m_da' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d1m_xiao' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d1m_dan' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d1m_shuang' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d1m_long' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d1m_hu' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d2m_da' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d2m_xiao' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d2m_dan' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d2m_shuang' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d2m_long' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d2m_hu' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d3m_da' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d3m_xiao' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d3m_dan' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d3m_shuang' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d3m_long' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d3m_hu' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d4m_da' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d4m_xiao' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d4m_dan' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d4m_shuang' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d4m_long' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d4m_hu' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d5m_da' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d5m_xiao' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d5m_dan' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d5m_shuang' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d5m_long' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d5m_hu' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d6m_da' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d6m_xiao' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d6m_dan' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d6m_shuang' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d6m_long' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d6m_hu' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d7m_da' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d7m_xiao' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d7m_dan' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d7m_shuang' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d7m_long' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d7m_hu' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d8m_da' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d8m_xiao' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d8m_dan' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d8m_shuang' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d8m_long' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d8m_hu' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d9m_da' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d9m_xiao' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d9m_dan' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d9m_shuang' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d9m_long' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d9m_hu' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d10m_da' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d10m_xiao' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d10m_dan' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d10m_shuang' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d10m_long' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'lmp_d10m_hu' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm4' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm5' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm6' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm7' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm8' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm9' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm10' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm11' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm12' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm13' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm14' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm15' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm16' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm17' LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm18' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_hm19' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_da' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_xiao' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_dan' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'gyh_shuang' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d1m_hm1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d1m_hm2' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d1m_hm3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d1m_hm4' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d1m_hm5' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d1m_hm6' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d1m_hm7' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d1m_hm8' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d1m_hm9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d1m_hm10' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d2m_hm1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d2m_hm2' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d2m_hm3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d2m_hm4' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d2m_hm5' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d2m_hm6' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d2m_hm7' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d2m_hm8' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d2m_hm9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d2m_hm10' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d3m_hm1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d3m_hm2' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d3m_hm3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d3m_hm4' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d3m_hm5' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d3m_hm6' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d3m_hm7' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d3m_hm8' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d3m_hm9' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d3m_hm10' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d4m_hm1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d4m_hm2' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d4m_hm3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d4m_hm4' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d4m_hm5' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d4m_hm6' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d4m_hm7' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d4m_hm8' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d4m_hm9' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d4m_hm10' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d5m_hm1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d5m_hm2' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d5m_hm3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d5m_hm4' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d5m_hm5' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d5m_hm6' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d5m_hm7' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d5m_hm8' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d5m_hm9' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d5m_hm10' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d6m_hm1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d6m_hm2' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d6m_hm3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d6m_hm4' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d6m_hm5' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d6m_hm6' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d6m_hm7' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d6m_hm8' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d6m_hm9' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d6m_hm10' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d7m_hm1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d7m_hm2' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d7m_hm3' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d7m_hm4' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d7m_hm5' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d7m_hm6' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d7m_hm7' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d7m_hm8' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d7m_hm9' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d7m_hm10' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d8m_hm1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d8m_hm2' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d8m_hm3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d8m_hm4' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d8m_hm5' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d8m_hm6' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d8m_hm7' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d8m_hm8' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d8m_hm9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d8m_hm10' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d9m_hm1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d9m_hm2' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d9m_hm3' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d9m_hm4' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d9m_hm5' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d9m_hm6' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d9m_hm7' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d9m_hm8' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d9m_hm9' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d9m_hm10' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d10m_hm1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d10m_hm2' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d10m_hm3' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d10m_hm4' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d10m_hm5' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d10m_hm6' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d10m_hm7' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d10m_hm8' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d10m_hm9' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'pk10' AND `playid` = 'yzwm_d10m_hm10' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'keno' AND `playid` = 'bjkl8rx1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'keno' AND `playid` = 'bjkl8rx2' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'keno' AND `playid` = 'bjkl8rx3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'keno' AND `playid` = 'bjkl8rx4' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'keno' AND `playid` = 'bjkl8rx5' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'keno' AND `playid` = 'bjkl8rx6' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'keno' AND `playid` = 'bjkl8rx7' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'keno' AND `playid` = 'bjkl8sxp' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'keno' AND `playid` = 'bjkl8jop' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'keno' AND `playid` = 'bjkl8dxds' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5qsfs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5qsds' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5zsfs' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5zsds' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5hsfs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5hsds' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5qszx' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5qszxds' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5qsdt' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5zszx' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5zsdt' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5hszx' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5hsdt' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5qefs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5qeds' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5hefs' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5heds' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5qezx' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5qezxds' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5qedt' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5hezx' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5hedt' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5bdwqs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5bdwzs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5bdwhs' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5dwd' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rx1z1' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rx2z2' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rx3z3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rx4z4' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rx5z5' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rx6z5' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rx7z5' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rx8z5' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rxds1z1' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rxds2z2' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rxds3z3' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rxds4z4' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rxds5z5' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rxds6z5' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rxds7z5' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5rxds8z5' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5dt2z2' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5dt3z3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5dt4z4' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5dt5z5' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5dt6z5' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5dt7z5' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5dt8z5' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5dds' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'x5' AND `playid` = 'x5czw' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3zxfs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3zxds' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3zux3' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3zux6' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3zuxhh' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3zuxbd' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3zsds' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3zlds' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3q2zxfs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3q2zxds' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3q2zxbd' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3h2zxfs' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3h2zxds' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3h2zxbd' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3qx2fs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3qx2ds' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3hx2fs' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3hx2ds' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3ymbdw' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3rmbdw' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3kd' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3q2kd' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3h2kd' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3dwdfs' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3hzzx' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3zuxhz' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3q2zxhz' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3q2zuxhz' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3h2zxhz' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'pl3h2zuxhz' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'dxdsq2' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_wanfa` WHERE `typeid` = 'dpc' AND `playid` = 'dxdsh2' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: bankpaylists D:\phpstudy_pro\WWW\www.test.net\app\Api\Controller\LotteryController.class.php 第 151 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+SQL: SELECT `name` FROM `caipiao_caipiao` WHERE `isopen` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_kaijiang` [ RunTime:0.0054s ]
+SQL: SELECT `expect`,`opencode`,`opentime` FROM `caipiao_kaijiang` WHERE `name` = 'f1k3' ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `expect`,`opencode`,`opentime` FROM `caipiao_kaijiang` WHERE `name` = 'jl2k3' ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `expect`,`opencode`,`opentime` FROM `caipiao_kaijiang` WHERE `name` = 'jl3k3' ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `expect`,`opencode`,`opentime` FROM `caipiao_kaijiang` WHERE `name` = 'jl4k3' ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+SQL: SELECT * FROM `caipiao_setting`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `caipiao_member` WHERE `id` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `caipiao_caipiao` WHERE `isopen` = 1 ORDER BY allsort asc LIMIT 11   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_gonggao` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`oddtime` FROM `caipiao_gonggao` ORDER BY id DESC LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002958s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2021-12-31T12:24:28+08:00 ] 127.0.0.1 /Member.index.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\CommonController.class.php 第 6 行.
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+
+[ 2021-12-31T12:24:28+08:00 ] 127.0.0.1 /Public.login.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\CommonController.class.php 第 6 行.
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined index: home D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\CommonController.class.php 第 19 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\PublicController.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+SQL: SHOW COLUMNS FROM `caipiao_setting` [ RunTime:0.0052s ]
+SQL: SELECT `value` FROM `caipiao_setting` WHERE `name` = 'webtitle' LIMIT 1   [ RunTime:0.0003s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2021-12-31T12:24:29+08:00 ] 127.0.0.1 /Apijiekou.getLottery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLottery() should be compatible with Common\Controller\ApijiekouController::getLottery($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLotterycode() should be compatible with Common\Controller\ApijiekouController::getLotterycode($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2021-12-31T12:24:29+08:00 ] 127.0.0.1 /Apijiekou.checkislogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLottery() should be compatible with Common\Controller\ApijiekouController::getLottery($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLotterycode() should be compatible with Common\Controller\ApijiekouController::getLotterycode($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2021-12-31T12:24:33+08:00 ] 127.0.0.1 /Index.lotteryHall.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\CommonController.class.php 第 6 行.
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `caipiao_caipiao` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `caipiao_caipiao` WHERE `isopen` = 1 ORDER BY allsort asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `caipiao_setting` [ RunTime:0.0008s ]
+SQL: SELECT `value` FROM `caipiao_setting` WHERE `name` = 'webtitle' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 102 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 111 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 102 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 111 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 102 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 111 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 102 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 111 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 153 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 153 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 153 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2021-12-31T12:24:33+08:00 ] 127.0.0.1 /Apijiekou.getLottery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLottery() should be compatible with Common\Controller\ApijiekouController::getLottery($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLotterycode() should be compatible with Common\Controller\ApijiekouController::getLotterycode($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2021-12-31T12:24:33+08:00 ] 127.0.0.1 /Apijiekou.checkislogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLottery() should be compatible with Common\Controller\ApijiekouController::getLottery($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLotterycode() should be compatible with Common\Controller\ApijiekouController::getLotterycode($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2021-12-31T12:24:36+08:00 ] 127.0.0.1 /Game.k3.code.jl2k3.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\CommonController.class.php 第 6 行.
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+
+[ 2021-12-31T12:24:36+08:00 ] 127.0.0.1 /Public.login.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002681s ]
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\CommonController.class.php 第 6 行.
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined index: home D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\CommonController.class.php 第 19 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\PublicController.class.php 第 115 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `caipiao_setting` [ RunTime:0.0005s ]
+SQL: SELECT `value` FROM `caipiao_setting` WHERE `name` = 'webtitle' LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2021-12-31T12:24:37+08:00 ] 127.0.0.1 /Apijiekou.getLottery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002083s ]
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLottery() should be compatible with Common\Controller\ApijiekouController::getLottery($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLotterycode() should be compatible with Common\Controller\ApijiekouController::getLotterycode($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2021-12-31T12:24:37+08:00 ] 127.0.0.1 /Apijiekou.checkislogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001281s ]
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLottery() should be compatible with Common\Controller\ApijiekouController::getLottery($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLotterycode() should be compatible with Common\Controller\ApijiekouController::getLotterycode($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2021-12-31T12:24:39+08:00 ] 127.0.0.1 /Public.register.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\CommonController.class.php 第 6 行.
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\PublicController.class.php 第 125 行.
+SQL: SHOW COLUMNS FROM `caipiao_setting` [ RunTime:0.0006s ]
+SQL: SELECT `value` FROM `caipiao_setting` WHERE ( name='defaulttjcode' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+SQL: SELECT `value` FROM `caipiao_setting` WHERE `name` = 'webtitle' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: linkinfo D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\52e7a5b9c8b17f239d8f0201262808e9.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2021-12-31T12:24:39+08:00 ] 127.0.0.1 /Apijiekou.getLottery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLottery() should be compatible with Common\Controller\ApijiekouController::getLottery($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLotterycode() should be compatible with Common\Controller\ApijiekouController::getLotterycode($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2021-12-31T12:24:39+08:00 ] 127.0.0.1 /Apijiekou.checkislogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLottery() should be compatible with Common\Controller\ApijiekouController::getLottery($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLotterycode() should be compatible with Common\Controller\ApijiekouController::getLotterycode($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2021-12-31T12:25:11+08:00 ] 127.0.0.1 /Public.LoginDo.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\CommonController.class.php 第 6 行.
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+NOTIC: [8] Undefined index: nocode D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\PublicController.class.php 第 490 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0025s ]
+SQL: SELECT `loginip`,`logintime` FROM `caipiao_member` WHERE ( username='wodage' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `caipiao_member` WHERE `username` = 'wodage' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2021-12-31T12:25:47+08:00 ] 127.0.0.1 /Public.LoginDo.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\CommonController.class.php 第 6 行.
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+NOTIC: [8] Undefined index: nocode D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\PublicController.class.php 第 490 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0008s ]
+SQL: SELECT `loginip`,`logintime` FROM `caipiao_member` WHERE ( username='123456' ) LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `caipiao_member` WHERE `username` = '123456' LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2021-12-31T12:26:15+08:00 ] 127.0.0.1 /Public.LoginDo.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\CommonController.class.php 第 6 行.
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+NOTIC: [8] Undefined index: nocode D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\PublicController.class.php 第 490 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0020s ]
+SQL: SELECT `loginip`,`logintime` FROM `caipiao_member` WHERE ( username='shiwan' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `caipiao_member` WHERE `username` = 'shiwan' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2021-12-31T12:26:26+08:00 ] 127.0.0.1 /Public.LoginDo.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\CommonController.class.php 第 6 行.
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+NOTIC: [8] Undefined index: nocode D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\PublicController.class.php 第 490 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `caipiao_member` WHERE `username` = 'shiwan' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `caipiao_memberlog` [ RunTime:0.0038s ]
+SQL: INSERT INTO `caipiao_memberlog` (`userid`,`username`,`type`,`info`,`time`,`ip`,`iparea`) VALUES ('3','shiwan','login','登录成功','1640924786','127.0.0.1','本机地址') [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `caipiao_membersession` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `caipiao_membersession` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `caipiao_membersession` SET `sessionid`='5ae4e47475460168af92f519a47e274d',`ip`='127.0.0.1',`time`='1640924786' WHERE `userid` = 3 [ RunTime:0.0037s ]
+SQL: UPDATE `caipiao_member` SET `onlinetime`='1640924786',`logintime`='1640924786',`loginip`='127.0.0.1',`iparea`='本机地址',`loginsource`='mobile' WHERE `id` = 3 [ RunTime:0.0037s ]
+SQL: SHOW COLUMNS FROM `caipiao_touzhu` [ RunTime:0.0043s ]
+SQL: SELECT SUM(okamount) AS tp_SUM FROM `caipiao_touzhu` WHERE ( isdraw=1 AND uid='3'  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] unlink(./Runtime/Temp/95072641dd275736c58c88702f945ed2.php): No such file or directory D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Cache\Driver\File.class.php 第 157 行.
+SQL: SELECT DISTINCT  `cptitle`,`cpname` FROM `caipiao_touzhu` WHERE ( uid='3'  ) LIMIT 8   [ RunTime:0.0002s ]
+
+[ 2021-12-31T12:26:28+08:00 ] 127.0.0.1 /Member.index.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\CommonController.class.php 第 6 行.
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 43 行.
+NOTIC: [8] Undefined index: userinfo D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Controller.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `caipiao_member` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_membersession` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `caipiao_membersession` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_banklist` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `caipiao_banklist` WHERE `uid` = 3 AND `state` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_question` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `caipiao_question` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+SQL: SHOW COLUMNS FROM `caipiao_setting` [ RunTime:0.0006s ]
+SQL: SELECT `value` FROM `caipiao_setting` WHERE `name` = 'webtitle' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `value` FROM `caipiao_setting` WHERE `name` = 'kefuthree' LIMIT 1   [ RunTime:0.0002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001650s ]
+
+[ 2021-12-31T12:26:28+08:00 ] 127.0.0.1 /Apijiekou.getLottery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLottery() should be compatible with Common\Controller\ApijiekouController::getLottery($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLotterycode() should be compatible with Common\Controller\ApijiekouController::getLotterycode($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2021-12-31T12:26:28+08:00 ] 127.0.0.1 /Apijiekou.checkislogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLottery() should be compatible with Common\Controller\ApijiekouController::getLottery($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLotterycode() should be compatible with Common\Controller\ApijiekouController::getLotterycode($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `caipiao_member` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `caipiao_membersession` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `caipiao_membersession` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `caipiao_banklist` [ RunTime:0.0069s ]
+SQL: SHOW COLUMNS FROM `caipiao_question` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `caipiao_question` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2021-12-31T12:26:58+08:00 ] 127.0.0.1 /Member.personalInfo.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002329s ]
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_member` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_membersession` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `caipiao_membersession` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `caipiao_membersession` SET `time`='1640924818' WHERE `userid` = 3 [ RunTime:0.0040s ]
+SQL: UPDATE `caipiao_member` SET `onlinetime`='1640924818' WHERE `id` = 3 [ RunTime:0.0039s ]
+SQL: SHOW COLUMNS FROM `caipiao_banklist` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `caipiao_question` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `caipiao_question` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_membergroup` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `caipiao_membergroup` ORDER BY groupid ASC  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: value D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+NOTIC: [8] Undefined index: value D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+NOTIC: [8] Undefined index: value D:\phpstudy_pro\WWW\www.test.net\Core\Library\Think\Template\TagLib\Cx.class.php 第 251 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `caipiao_setting` [ RunTime:0.0007s ]
+SQL: SELECT `value` FROM `caipiao_setting` WHERE `name` = 'webtitle' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant qq - assumed 'qq' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\391300417215f533a6a4c3b709799a45.php 第 103 行.
+NOTIC: [8] Undefined index: touhan D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\391300417215f533a6a4c3b709799a45.php 第 165 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2021-12-31T12:26:58+08:00 ] 127.0.0.1 /Apijiekou.getLottery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLottery() should be compatible with Common\Controller\ApijiekouController::getLottery($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLotterycode() should be compatible with Common\Controller\ApijiekouController::getLotterycode($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2021-12-31T12:26:58+08:00 ] 127.0.0.1 /Apijiekou.checkislogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLottery() should be compatible with Common\Controller\ApijiekouController::getLottery($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLotterycode() should be compatible with Common\Controller\ApijiekouController::getLotterycode($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `caipiao_member` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `caipiao_membersession` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `caipiao_membersession` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `caipiao_banklist` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `caipiao_question` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `caipiao_question` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000770s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2021-12-31T12:27:01+08:00 ] 127.0.0.1 /Index.lotteryHall.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_member` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_membersession` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `caipiao_membersession` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_banklist` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `caipiao_question` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `caipiao_question` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_caipiao` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `caipiao_caipiao` WHERE `isopen` = 1 ORDER BY allsort asc  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `caipiao_setting` [ RunTime:0.0011s ]
+SQL: SELECT `value` FROM `caipiao_setting` WHERE `name` = 'webtitle' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 102 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 111 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 102 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 111 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 102 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 111 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 102 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 111 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 153 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 153 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 153 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\phpstudy_pro\WWW\www.test.net\Runtime\Cache\Mobile\88e8b0385affbdb973136b8714074465.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2021-12-31T12:27:02+08:00 ] 127.0.0.1 /Apijiekou.getLottery
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002596s ]
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLottery() should be compatible with Common\Controller\ApijiekouController::getLottery($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLotterycode() should be compatible with Common\Controller\ApijiekouController::getLotterycode($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [2] array_merge(): Argument #2 is not an array D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 67 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 70 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001298s ]
+
+[ 2021-12-31T12:27:02+08:00 ] 127.0.0.1 /Apijiekou.checkislogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLottery() should be compatible with Common\Controller\ApijiekouController::getLottery($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [2048] Declaration of Mobile\Controller\ApijiekouController::getLotterycode() should be compatible with Common\Controller\ApijiekouController::getLotterycode($apiparam = Array) D:\phpstudy_pro\WWW\www.test.net\app\Mobile\Controller\ApijiekouController.class.php 第 4 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_member` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `caipiao_membersession` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `caipiao_membersession` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `caipiao_banklist` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `caipiao_question` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `caipiao_question` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2021-12-31T12:27:05+08:00 ] 127.0.0.1 /Other.xuanmei.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `caipiao_member` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_membersession` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `caipiao_membersession` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_banklist` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `caipiao_question` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `caipiao_question` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000660s ]
+
+[ 2021-12-31T12:27:26+08:00 ] 127.0.0.1 /Index.index.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `caipiao_member` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_membersession` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `caipiao_membersession` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `caipiao_membersession` SET `time`='1640924846' WHERE `userid` = 3 [ RunTime:0.0054s ]
+SQL: UPDATE `caipiao_member` SET `onlinetime`='1640924846' WHERE `id` = 3 [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `caipiao_banklist` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `caipiao_question` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `caipiao_question` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `caipiao_setting` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_setting`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_member` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_caipiao` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `caipiao_gonggao` [ RunTime:0.0052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2021-12-31T12:27:29+08:00 ] 127.0.0.1 /Other.xuanmei.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004358s ]
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `caipiao_member` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_membersession` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `caipiao_membersession` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `caipiao_banklist` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `caipiao_banklist` WHERE `uid` = 3 AND `state` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_question` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `caipiao_question` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2021-12-31T12:28:21+08:00 ] 127.0.0.1 /Index.index.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `caipiao_member` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `caipiao_membersession` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `caipiao_membersession` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `caipiao_membersession` SET `time`='1640924901' WHERE `userid` = 3 [ RunTime:0.0042s ]
+SQL: UPDATE `caipiao_member` SET `onlinetime`='1640924901' WHERE `id` = 3 [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `caipiao_banklist` [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `caipiao_question` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `caipiao_question` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_setting` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `caipiao_setting`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `caipiao_member` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `caipiao_caipiao` [ RunTime:0.0036s ]
+SQL: SHOW COLUMNS FROM `caipiao_gonggao` [ RunTime:0.0041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000529s ]
+
+[ 2021-12-31T12:28:32+08:00 ] 127.0.0.1 /Other.type.do?type=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `caipiao_member` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_membersession` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `caipiao_membersession` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_banklist` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `caipiao_banklist` WHERE `uid` = 3 AND `state` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `caipiao_question` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `caipiao_question` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2021-12-31T12:28:34+08:00 ] 127.0.0.1 /Other.type.do?type=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_member` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `caipiao_membersession` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `caipiao_membersession` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `caipiao_banklist` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `caipiao_question` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `caipiao_question` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2021-12-31T12:28:35+08:00 ] 127.0.0.1 /Other.type.do?type=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+NOTIC: [2] Creating default object from empty value D:\phpstudy_pro\WWW\www.test.net\app\Common\Common\function.php 第 502 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 47 行.
+NOTIC: [8] Undefined variable: apiurl D:\phpstudy_pro\WWW\www.test.net\app\Common\Lib\api.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `caipiao_member` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `caipiao_member` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `caipiao_membersession` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `caipiao_membersession` WHERE `userid` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `caipiao_banklist` [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `caipiao_question` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `caipiao_question` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+

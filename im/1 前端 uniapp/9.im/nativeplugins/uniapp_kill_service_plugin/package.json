@@ -1,0 +1,34 @@
+{
+    "name": "插件名称",
+    "id": "uniapp_kill_service_plugin",
+    "version": "1.0",
+    "description": "前台保护插件",
+    "_dp_type":"nativeplugin",
+    "_dp_nativeplugin":{
+        "android": {
+            "plugins": [
+                {
+                    "type": "module",
+                    "name": "uniapp_kill_service_plugin",
+                    "class": "com.github.uniapp_kill_service_plugin.WhiteListModal"
+                }
+            ],
+            "hooksClass": "com.github.uniapp_kill_service_plugin.ServiceProxy",
+            "integrateType": "aar",
+            "dependencies": [
+            ],
+            "compileOptions": { 
+                "sourceCompatibility": "1.8",
+                "targetCompatibility": "1.8"
+            },
+            "abis": [
+            ],
+            "minSdkVersion": "19",
+            "useAndroidX": false,  
+            "permissions": [
+            ],
+            "parameters": {
+            }
+        }
+    }
+}

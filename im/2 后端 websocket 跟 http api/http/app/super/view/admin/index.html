@@ -1,0 +1,358 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/static/lib/html5shiv.js"></script>
+    <script type="text/javascript" src="/static/lib/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/static/static/h-ui/css/H-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="/static/static/h-ui.admin/css/H-ui.admin.css" />
+    <link rel="stylesheet" type="text/css" href="/static/lib/Hui-iconfont/1.0.8/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="/static/static/h-ui.admin/skin/default/skin.css" id="skin" />
+    <link rel="stylesheet" type="text/css" href="/static/static/h-ui.admin/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+    <!--[if IE 6]>
+    <script type="text/javascript" src="/static/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script>DD_belatedPNG.fix('*');</script>
+    <![endif]-->
+    <title>用户管理</title>
+    
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span>  系统管理员中心<span class="c-gray en">&gt;</span> 管理员列表 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">
+    <form method="get" action="{:url('/super_adminList')}">
+        <input type="hidden" name="act" value="check">
+        <div class="text-l"><!--  日期范围：
+            <input type="text" onfocus="selecttime('start')" id="datemin" class="input-text Wdate" style="width:120px;" name="start_time" value="{if condition='isset($key.start_time)'}{$key.start_time}{/if}">
+            -
+            <input type="text" onfocus="selecttime('end')" id="datemax" class="input-text Wdate" style="width:120px;" name="end_time" value="{if condition='isset($key.end_time)'}{$key.end_time}{/if}">
+            --><input type="text" class="input-text" style="width:250px" placeholder="请输入管理员账户" id="" name="key" value="{if condition='isset($key.key)'}{$key.key}{/if}">
+            <button type="submit" class="btn btn-success radius" id="" name=""><i class="Hui-iconfont">&#xe665;</i> 搜索</button>
+        </div>
+    </form>
+
+     <div style="margin-top: 10px;">
+       <p> 
+          <!--<button class="btn radius btn-primary size-S" onClick="modaldemo()"><i class="Hui-iconfont">&#xe600;</i> 添加管理员</button>-->
+        </p>
+        <table class="table table-border table-bordered table-hover table-bg table-sort">
+            <thead>
+            <tr class="text-c">
+                <th width="40">ID</th>
+                <th width="80">帐号</th>
+                <th width="80">电话</th>
+                <th width="40">Email</th>
+               <th width="40">创建时间</th> 
+                <th width="80">操作</th> 
+            </tr>
+            </thead>
+            <tbody>
+            {volist name='list' id='u'}
+            <tr class="text-c">
+                <td>{$u.id}</td>
+                <td><u style="cursor:pointer" class="text-primary" >{$u.username|raw}</u></td>
+                <td>{$u.phone|raw}</td>
+               <td>{$u.email|raw}</td>
+                <td>{:date('Y-m-d H:i:s',$u.create_time)}</td>
+               
+               <td>
+                   <button class="btn radius btn-primary size-S" onclick="member_showChat('的会话','{$u.id}','{:url(\'/super_MemberChatList\')}','760','580')">查看会话</button> 
+                   <button class="btn radius btn-primary size-S" onclick="member_showMail('的通讯录','{$u.id}','{:url(\'/super_MemberMailList\')}','760','580')">查看通讯录</button> 
+
+               </td> 
+            </tr>
+            {/volist}
+            </tbody>
+        </table>
+    </div>
+
+    <div class="mt-15">
+        {$adminlist->appends($key)->render()|raw}
+    </div>
+
+    <div id="modal-demo" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+            <div class="modal-content radius">
+                <div class="modal-header">
+                    <h3 class="modal-title">添加会员</h3> 
+                    <a class="close" data-dismiss="modal" aria-hidden="true" href="javascript:void();">×</a>
+                </div>
+                <form method="POST" id="formAdd"  class="form form-horizontal">
+                <div class="modal-body">
+                   <div class="row cl">
+						<label class="form-label col-xs-4 col-sm-3">客户标识</label>
+						<div class="formControls col-xs-8 col-sm-9">
+							<select class="input-text radius" 
+                              id="agent_id" name="agent_id" autocomplete="off" 
+                              ></select> * 所属客户(商家)
+						</div>
+					</div>
+                    <div class="row cl">
+						<label class="form-label col-xs-4 col-sm-3">在线客服：</label>
+						<div class="formControls col-xs-8 col-sm-9 skin-minimal">
+                               <div class="radio-box formControls ">
+                                    <input type="radio" id="radio-1" value="0" name="is_customer_service" checked >
+                                    <label for="radio-1">否</label>
+                                </div>
+                                <div class="radio-box formControls ">
+                                    <input type="radio" id="radio-2" value="1" name="is_customer_service">
+                                    <label for="radio-2">是</label>
+                                </div>
+                               
+							
+						</div>
+					</div>
+                   <div class="row cl">
+						<label class="form-label col-xs-4 col-sm-3">帐号：</label>
+						<div class="formControls col-xs-8 col-sm-9">
+							<input type="text" class="input-text radius" 
+                              id="username" name="username" autocomplete="off" 
+                              placeholder="手机号/相遇号(6-16位字母/数字)">
+						</div>
+					</div>
+                    <div class="row cl">
+						<label class="form-label col-xs-4 col-sm-3">密码：</label>
+						<div class="formControls col-xs-8 col-sm-9">
+							<input type="text" class="input-text radius" id="password" name="password" 
+                               autocomplete="off" value="111111" readOnly placeholder="请输入密码(6-16位)">
+						</div>
+					</div>
+                   <div class="row cl">
+					
+					</div>
+                   <div class="row cl">
+                 
+
+					</div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" onClick="checkData(this);" class="btn btn-primary radius">确定</button>
+                    <button type="rest" class="btn radius" data-dismiss="modal" aria-hidden="true">关闭</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+
+</div>
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="/static/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="/static/static/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="/static/static/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
+
+<script type="text/javascript" src="/static/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript" src="/static/js/date_opt.js"></script>
+<script type="text/javascript">
+
+    $(function(){
+       getAgentList()
+    });
+
+   function getAgentList(){
+
+   
+    $.ajax({
+        url: "{:url('/super_getAgentList')}",
+        type: 'GET',
+        data: {},
+        async: false,      
+        success: function (data) {
+            if(data.err == 0){
+                let option = `<option value="">----选择客户(商家)----</option>`
+                let agentArr = data.data
+
+                 agentArr.map(function(value,index){
+                      option += `<option value="${value.agent_id}">${value.appName}</option>`
+                 })
+               $("#agent_id").html(option)
+            }
+        },
+        error: function (data) {
+        }
+    });
+}
+
+    function changeUserStatus(obj,id,name,act)
+    {
+        if(act == 1)
+        {
+            var m = '您确定要禁止用户<span style="color: red">'+name+'</span>吗？';
+            var btn = '禁止';
+            var su = '用户<span style="color: red">'+name+'</span>已经成功被禁止';
+        }
+        else
+        {
+            var m = '您确定把用户<span style="color: red">'+name+'</span>的状态改为正常吗？';
+            var btn = '恢复';
+            var su = '用户<span style="color: red">'+name+'</span>的状态已经成功恢复为正常';
+        }
+        layer.confirm(m,{
+            title:'请您确认',
+            btn:[btn,'取消'],
+            icon:0
+        },function () {
+            $.ajax({
+                type:'post',
+                url:"{:url('/super_changeUserStatus')}",
+                data:{
+                    id:id,
+                    act:act
+                },
+                success:function (data) {
+                    if(data.status)
+                    {
+                        layer.msg(su,{time:1500,icon:1});
+                        if(act == 1)
+                        {
+                            $(obj).parent().html('<span class="label label-disabled radius" onclick="changeUserStatus(this,'+id+',\''+name+'\',0)" style="cursor: pointer;">禁用</span>')
+                        }
+                        else
+                        {
+                            $(obj).parent().html('<span class="label label-success radius" onclick="changeUserStatus(this,'+id+',\''+name+'\',1)" style="cursor: pointer;">正常</span>')
+                        }
+                    }
+                    else
+                    {
+                        layer.alert(data.msg);
+                    }
+                }
+            });
+        });
+    }
+
+   function changeUserService(obj,id,name,act,agent_id)
+    {
+        if(act == 0)
+        {
+            var m = '您确定要取消<span style="color: red">'+name+'</span>的客服功能吗？';
+            var btn = '禁用';
+            var su = '用户<span style="color: red">'+name+'</span>已经成功被取消客服功能';
+        }
+        else
+        {
+            var m = '您确定把用户<span style="color: red">'+name+'</span>启用为客服人员吗？';
+            var btn = '启用';
+            var su = '用户<span style="color: red">'+name+'</span>已经成功启用为客服人员';
+        }
+        let data = {
+                    id:id,
+                    act:act,
+                    agent_id:agent_id
+                }
+                 
+        layer.confirm(m,{
+            title:'请您确认',
+            btn:[btn,'取消'],
+            icon:0
+        },function () {
+            $.ajax({
+                type:'post',
+                url:"{:url('/changeUserService')}",
+                data:data,
+                success:function (data) {
+
+                  
+                    if(data.err == 0){
+
+                        layer.msg(su,{time:1500,icon:1});
+                        if(act == 1)
+                        {
+                            $(obj).parent().html('<span class="label label-success  radius" onclick="changeUserService(this,'+id+',\''+name+'\',0)" style="cursor: pointer;">禁用客服</span>')
+                        }
+                        else
+                        {
+                            $(obj).parent().html('<span class="label label-disabled radius" onclick="changeUserService(this,'+id+',\''+name+'\',1)" style="cursor: pointer;">启用客服</span>')
+                        }
+                    }
+                    else
+                    {
+                        layer.alert(data.msg);
+                    }
+                }
+            });
+        });
+    }
+    function member_show(name,id,url,w,h) {
+        layer_show(name,url+'?user_id='+id,w,h);
+    }
+    
+     function member_showChat(name,id,url,w,h) {
+        layer_show(name,url+'?user_id='+id,w,h);
+    }
+    function member_showMail(name,id,url,w,h) {
+        layer_show(name,url+'?user_id='+id,w,h);
+    }
+    
+    function modaldemo(){
+	    $("#modal-demo").modal("show")
+    }
+
+
+//验证数据
+function checkData(obj){
+   let ret = true;
+     if($("#agent_id").val().length==0){
+        ret = false;
+        $("#agent_id").change();
+         layer.msg("请选择客户(商家)！",{time:2000,icon:1});
+        return;
+    }
+
+    if($("#username").val().length<=5){
+        ret = false;
+        $("#username").focus();
+         layer.msg("相遇号只能包括下划线、数字、字母,并且不能超过20个！",{time:2000,icon:1});
+        return;
+    }
+    /*
+    if($("#password").val().length==0 || 
+       ! (/^\w{1,20}$/).test($("#password").val())){
+        ret = false;
+       
+        $("#password").focus();
+          layer.msg("密码只能包括下划线、数字、字母,长度6-20位！",{time:2000,icon:1});
+        return;
+    }
+    */
+    if(ret)  submitSave(obj);
+}
+
+
+//提交数据
+function submitSave(obj){
+  let data = $("#formAdd").serialize();
+ 
+  let url = "/im/in/reg";//
+  $.ajax({
+        url: url,
+        type: 'POST',
+        data: data,
+        async: false,      
+        success: function (data) {
+            if(data.err == 0){
+                layer.msg('提交成功！');  
+                $(obj).next().click(); 
+                window.location.href = "{:url('/super_memberList')}";
+
+            }else{
+                layer.msg(data.msg);
+            }
+        },
+        error: function (data) {
+
+        }
+    });
+}
+</script>
+</body>
+</html>

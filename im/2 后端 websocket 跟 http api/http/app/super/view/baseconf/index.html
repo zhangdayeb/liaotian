@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/static/lib/html5shiv.js"></script>
+    <script type="text/javascript" src="/static/lib/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="/static/static/h-ui/css/H-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="/static/static/h-ui.admin/css/H-ui.admin.css" />
+    <link rel="stylesheet" type="text/css" href="/static/lib/Hui-iconfont/1.0.8/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="/static/static/h-ui.admin/skin/default/skin.css" id="skin" />
+    <link rel="stylesheet" type="text/css" href="/static/static/h-ui.admin/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+    <!--[if IE 6]>
+    <script type="text/javascript" src="/static/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script>DD_belatedPNG.fix('*');</script>
+    <![endif]-->
+    <title>基础设置</title>
+    
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 基础设置 <span class="c-gray en">&gt;</span> 设置列表 <a class="btn btn-success radius r" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="page-container">
+    
+    <div style="margin-top: 10px;">
+        <table class="table table-border table-bordered table-hover table-bg table-sort">
+            <thead>
+            <tr class="text-c">
+                <th width="40">ID</th>
+                <th width="100">配置类型</th>
+                <th width="60">配置表名</th>
+                <th width="120">配置功能</th>
+                 <!--<th width="70">操作</th>-->
+                <th width="200">配置字段值</th>
+               
+               
+            </tr>
+            </thead>
+            <tbody>
+             {volist name='list' id='c'}
+            <tr class="text-c">
+                <td>{$c.id}</td>
+                <td>{$c.type|raw}</td>
+                <td>{$c.table_name|raw}</td>
+                <td>
+                    {$c.field_title}
+                </td>
+               
+               
+                <!--<td class="td-manage">-->
+                 <!---->
+                <!--{if strlen($c.field_val)} -->
+                   <!--<span class="label label-success radius" onclick="list('{:url('/super_memberList')}')" style="cursor: pointer;">查看</span>-->
+                <!--{else/}-->
+                  <!---->
+                    <!--<a class="label label-success radius" data-href="{:url('/super_memberList')}" data-title="添加" href="javascript:;">添加</a>-->
+                 <!--{/if}-->
+                <!---->
+                <!--</td>-->
+                 <td>{$c.field_val}</td>
+            </tr>
+            {/volist}
+            </tbody>
+        </table>
+    </div>
+   
+    
+    <div class="mt-15">
+     {$list|raw}
+    </div>
+</div>
+<!--_footer 作为公共模版分离出去-->
+<script type="text/javascript" src="/static/lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script>
+<script type="text/javascript" src="/static/static/h-ui/js/H-ui.min.js"></script>
+<script type="text/javascript" src="/static/static/h-ui.admin/js/H-ui.admin.js"></script> <!--/_footer 作为公共模版分离出去-->
+
+<script type="text/javascript" src="/static/lib/My97DatePicker/4.8/WdatePicker.js"></script>
+<script type="text/javascript">
+    function list(url){
+        window.location.href = url
+    }
+
+    function addSet(url){
+        window.location.href = url
+    }
+
+    
+</script>
+</body>
+</html>

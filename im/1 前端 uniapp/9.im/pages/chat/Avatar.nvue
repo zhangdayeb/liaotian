@@ -1,0 +1,19 @@
+<template>
+	<view class="chat-avatar">
+		<image :src="src" style="width: 90rpx;height: 90rpx; border-radius: 10rpx;" />
+	</view>
+</template>
+
+<script>
+export default {
+  props: ['src']
+}
+</script>
+
+<style>
+.chat-avatar {
+	background-color:#FFFFFF;
+	width: 90rpx;
+	height:90rpx;
+}
+</style>

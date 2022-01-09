@@ -1,0 +1,1976 @@
+
+
+                       
+  [RuntimeException]   
+  Too many arguments.  
+                       
+
+
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Processed: job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Processed: job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Processed: job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Processed: job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Processed: job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Processed: job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Processed: job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Processed: job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Processed: job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 0
+    [msg] => 推送成功!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Processed: job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Array
+(
+    [err] => 1
+    [msg] => 推送失败!
+    [data] => Array
+        (
+        )
+
+)
+Processed: app\job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Broadcasting queue restart signal.
+Processed: app\job\PushJob
+Processed: app\job\PushJob
+Processed: app\job\PushJob
+Processed: app\job\PushJob
+Processed: app\job\PushJob
+Processed: app\job\PushJob
+Processed: app\job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob
+Processed: job\PushJob

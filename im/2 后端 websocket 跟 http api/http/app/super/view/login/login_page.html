@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <!--[if lt IE 9]>
+    <![endif]-->
+
+    <!--[if IE 6]>
+    <script type="text/javascript" src="/static/lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+    <script>DD_belatedPNG.fix('*');</script>
+    <![endif]-->
+    <title>社交管理系统登录</title>
+    <style>
+       *{
+           margin: 0;
+           padding: 0;
+       }
+       body{
+           position:relative;
+           height:100vh;
+       }
+        .login{
+            background-color: #ececec;
+            width: 300px;
+            height: 334px;
+            padding: 0 20px;
+            left:50%;
+            top:50%;
+            position: absolute;
+            margin-left: -150px;
+            margin-top: -167px;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+       .login_face {
+           margin: -55px auto 20px;
+           width: 100px;
+           height: 100px;
+           -webkit-border-radius: 50%;
+           -moz-border-radius: 50%;
+           border-radius: 50%;
+           border:5px solid #fff;
+           overflow: hidden;
+           box-shadow: 0 0 30px #009688;
+       }
+       .login_face img{
+           width: 100%;
+           border: none;
+       }
+        .login-title{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+        h2{
+            font-weight: 400;
+        }
+        .form-item label{
+            position: absolute;
+            color: #757575;
+            left: 10px;
+            top: 9px;
+            line-height: 20px;
+            background: #fff;
+            padding: 0 5px;
+            font-size: 14px;
+            cursor: text;
+        }
+        .form-item{
+            position: relative;
+            margin-bottom: 15px;
+            clear: both;
+        }
+
+        .login-input{
+            width: 100%;
+            height: 38px;
+            line-height: 1.3;
+            line-height: 38px\9;
+            border-width: 1px;
+            border-style: solid;
+            border-color: #e6e6e6;
+            background-color: #fff;
+            border-radius: 2px;
+            display: inline-block;
+            cursor: text;
+            padding-left: 10px;
+        }
+        .form-item-button{
+            background-color:#009688;
+            border-radius: 5px;
+            width: 100%;
+            height: 34px;
+            border: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <div class="login_face">
+            <img src="/static/lib/image/im.png" alt="">
+        </div>
+        <form action="">
+            <div class="login-title">
+                <h2>即时通讯系统</h2>
+            </div>
+            <div class="form-item">
+                <label style="top:-10px">账号</label>
+                <input type="text" placeholder="请输入用户名"  autocomplete="off" name="login_name" class="login-input">
+            </div>
+            <div class="form-item">
+                <label style="top:-10px">密码</label>
+                <input type="password" placeholder="请输入用密码" autocomplete="off" name="password" class="login-input">
+            </div>
+            <div class="form-item">
+                <button type="button" onclick="loginAction()" class="form-item-button">登陆</button>
+            </div>
+        </form>
+    </div>
+<script type="text/javascript" src="/static/lib/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/static/lib/layer/2.4/layer.js"></script>
+<script>
+    function changeImg(obj) {
+        var url = $(obj).attr('src');
+        url = url.split('?');
+        var newUrl = url[0] + "?abcd="+Math.random();
+        $(obj).attr('src',newUrl);
+    }
+    function loginAction()
+    {
+        var login_name = $("input[name='login_name']").val();
+        var password = $("input[name='password']").val();
+        var yzm = $("input[name='yzm']").val();
+
+        if(login_name == '')
+        {
+            layer.msg('请输入管理员账号',{icon:2,time:2000});
+            return false;
+        }
+        if(password == '')
+        {
+            layer.msg('管理员的密码不能为空',{icon:2,time:2000});
+            return false;
+        }
+        if(yzm == '' || yzm == '验证码:')
+        {
+            layer.msg('请输入验证码',{icon:2,time:2000});
+            return false;
+        }
+        $.ajax({
+            type:'post',
+            url:"{:url('/superloginAction')}",
+            data:{
+                login_name:login_name,
+                password:password,
+                yzm:yzm
+            },
+            success:function (data) {
+              
+                if(data.status)
+                {
+                    layer.msg(data.msg,{icon:1,time:2000});
+                    setTimeout(function () {
+                        window.location.href = "{:url('/admin_index')}"
+                    },2000);
+                }
+                else
+                {
+                    layer.msg(data.msg,{icon:2,time:2000});
+                }
+            }
+        });
+    }
+</script>
+</body>
+</html>

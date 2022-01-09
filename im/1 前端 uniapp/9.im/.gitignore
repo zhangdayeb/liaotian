@@ -1,0 +1,10 @@
+node_modules
+unpackage/dist/*
+.idea/workspace.xml
+.idea/modules.xml
+.idea/j_uniapp_im.iml
+.idea/deployment.xml
+.idea/vcs.xml
+.idea/encodings.xml
+.idea/misc.xml
+*.apk

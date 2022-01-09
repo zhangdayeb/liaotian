@@ -1,0 +1,48 @@
+{
+	"name":"Html5App-TencentCall",
+	"id": "Html5App-TencentCall",
+	"version": "3.2.0",
+	"description": "Android 和 IOS 腾讯云视频通话插件",
+	"_dp_type": "nativeplugin",
+	"_dp_nativeplugin": {
+		"ios": {  
+            "plugins":[  
+                {  
+                    "type":"module",  
+                    "name": "Html5App-TencentCall",  
+                    "class": "TencentPlug"  	
+                }  
+            ],
+			"integrateType":"framework",
+			 "frameworks": ["libresolv.tbd"],
+			 "resources": ["TXLAV.bundle"],
+			 "deploymentTarget": "8.0",  
+             "parameters": {  
+                "sdkAppId": {  
+                    "des": "腾讯云视频通话sdkAppId",  
+                    "key": "tencenttrtc:appid" 
+                }  
+            }  
+		},
+		"android": {
+			"plugins": [{  
+                    "type":"module", 
+                    "name":"Html5App-TencentCall", 
+                    "class": "com.html5app.uni_tencent_call.Plug"  
+                   }],
+			"integrateType": "aar",
+			"minSdkVersion": "16",
+			"dependencies": [ 
+				"com.squareup.okhttp3:logging-interceptor:3.8.1",
+				"com.android.support:multidex:1.0.0"
+             ],
+			  "parameters": {  
+                "sdkAppId": {  
+                    "des": "腾讯云视频通话sdkAppId", 
+                    "key": "tencenttrtc:appid"
+                }  
+            }  
+		}
+	}
+   
+}
