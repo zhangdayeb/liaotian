@@ -193,14 +193,18 @@ body {
 
 <header style="background-color: #FFFFFF;height: 74px" data-am-widget="header" class="am-header am-header-default header nav_bg am-header-fixed am-no-layout">
     <div>
-        <center><img style="width: 120px;" src="/Template/Mobile/images/1122.png"></center>
+        <!--<center><img style="width: 120px;" src="/Template/Mobile/images/1122.png"></center>-->
         <div class="tabBar">
              <img src="/Template/Mobile/images/1.png" height="24px">
         <div class="tabItem active1" onclick="javascript:location.href = '/'">精选</div>
-        <div class="tabItem" onclick="javascript:location.href = '/Other.type.do?type=2'">热门精选</div>
-        <div class="tabItem" onclick="javascript:location.href = '/Other.type.do?type=3'">国产无码</div>
-        <div class="tabItem" onclick="javascript:location.href = '/Other.type.do?type=4'">日韩女优</div>
-        <div class="tabItem" onclick="javascript:location.href = '/Other.type.do?type=5'">欧美精品</div>
+            <div class="tabItem" onclick="javascript:alert('暂无权限')">热门精选</div>
+            <div class="tabItem" onclick="javascript:alert('暂无权限')">国产无码</div>
+            <div class="tabItem" onclick="javascript:alert('暂无权限')">日韩女优</div>
+            <div class="tabItem" onclick="javascript:alert('暂无权限')">欧美精品</div>
+<!--        <div class="tabItem" onclick="javascript:location.href = '/Other.type.do?type=2'">热门精选</div>-->
+<!--        <div class="tabItem" onclick="javascript:location.href = '/Other.type.do?type=3'">国产无码</div>-->
+<!--        <div class="tabItem" onclick="javascript:location.href = '/Other.type.do?type=4'">日韩女优</div>-->
+<!--        <div class="tabItem" onclick="javascript:location.href = '/Other.type.do?type=5'">欧美精品</div>-->
         <!--<span onclick="javascript:location.href = 'http://makykf.shinuomei.com/Web/im.aspx?_=t&accountid=126753'" style="color: #FFFFFF;font-size: 14px;position: absolute;right: 15px">在线客服</span>-->
     </div>
 <style type="text/css">
