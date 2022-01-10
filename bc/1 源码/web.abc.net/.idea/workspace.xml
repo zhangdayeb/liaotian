@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="509d6f27-1a82-414d-b609-2ff0c01a9f0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template/Mobile/Index_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Template/Mobile/Index_index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Mobile/Common/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mobile/Common/function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3 数据库/cp_20211231_114444.sql" beforeDir="false" />
-    </list>
+    <list default="true" id="509d6f27-1a82-414d-b609-2ff0c01a9f0a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +13,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Mobile/Common/function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="1529" column="1" lean-forward="true" selection-end-line="1529" selection-end-column="1" />
+            <state relative-caret-position="42812">
+              <caret line="1529" column="1" selection-end-line="1529" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -83,41 +77,12 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="web.abc.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web.abc.net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web.abc.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web.abc.net" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web.abc.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web.abc.net" type="462c0819:PsiDirectoryNode" />
-              <item name="Template" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="web.abc.net" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web.abc.net" type="462c0819:PsiDirectoryNode" />
-              <item name="Template" type="462c0819:PsiDirectoryNode" />
-              <item name="Mobile" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/phpstudy_pro/WWW/www.test.net" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -149,11 +114,12 @@
       <workItem from="1640954279798" duration="38000" />
       <workItem from="1641454599632" duration="1065000" />
       <workItem from="1641700692109" duration="678000" />
+      <workItem from="1641718931742" duration="21000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2831000" />
+    <option name="totallyTimeSpent" value="2852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -234,8 +200,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Mobile/Common/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="1529" column="1" lean-forward="true" selection-end-line="1529" selection-end-column="1" />
+        <state relative-caret-position="42812">
+          <caret line="1529" column="1" selection-end-line="1529" selection-end-column="1" />
         </state>
       </provider>
     </entry>

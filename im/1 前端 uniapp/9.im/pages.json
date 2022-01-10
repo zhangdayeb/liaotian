@@ -3,7 +3,7 @@
     {
       "path": "pages/chat/index",
       "style": {
-        "navigationBarTitleText": "新聊",
+        "navigationBarTitleText": "聊天",
         "enablePullDownRefresh": true,
         "app-plus": {
           "bounce": "none",
@@ -929,7 +929,7 @@
         "pagePath": "pages/chat/index",
         "iconPath": "static/theme/default/tabBar/1_0.png",
         "selectedIconPath": "static/theme/default/tabBar/1_1.png",
-        "text": "新聊"
+        "text": "聊天"
       },
       {
         "pagePath": "pages/friend/index",
