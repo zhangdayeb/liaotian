@@ -3,3 +3,26 @@ https://github.com/zhangdayeb/liaotian.git
 
 网页打包成exe命令
 nativefier www.super1988.vip
+
+
++++++++++++++++++++++++++++++++++
+聊天管理后台：
+https://admin.super1988.vip/admin_login
+账号：admin
+密码：123456
+
+聊天前台：
+https://www.super1988.vip
+
+
+彩票首页：
+https://www.super1996.vip
+
+彩票后台：
+http://admin.super1996.vip
+账号：alin
+密码：123456
+安全码：1234
+
+接待员帐号：统一密码：111111
+帐号(从001-009)：jiedai001----jiedai009
