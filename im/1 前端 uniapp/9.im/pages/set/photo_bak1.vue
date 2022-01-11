@@ -2,19 +2,13 @@
 	
 	<view>
 		<view class="main">
-			<!-- <avatar 
+			<avatar 
 				selWidth="600upx" 
 				selHeight="600upx" 
 				@upload="upload"
 				:avatarSrc="myPhoto"
 				avatarStyle="width: 600upx; height: 600upx; border-radius: 15upx;">
-			</avatar> -->
-			 <upload-img 
-				:width="600"
-				:height="600"
-				:bgsrc="myPhoto"
-				@chooseimg="handleChooseImg">
-			</upload-img>
+			</avatar>
 		</view>
 	</view>
 	
@@ -22,7 +16,6 @@
 	
 <script>
 	import avatar from "../../components/yq-avatar/yq-avatar.vue";
-	import uploadImg  from "../../components/uploadimg/uploadImg.vue";
 	import _hook from '../../common/_hook';
 	import _get from '../../common/_get';
 	import _action from '../../common/_action';
@@ -32,7 +25,6 @@
 		
 		components: {
 			avatar,
-			uploadImg
 		},
 		data() {
 			return {
@@ -62,10 +54,6 @@
 			}
 		},
 		methods: {
-			handleChooseImg(e){
-				this.show_path = e.src;
-				this.send();
-			},
 			upload(e){
 				this.show_path = e.path;
 				this.send();
@@ -109,11 +97,10 @@
 </script>
 
 <style>
+	
 	.main {
 		text-align: center;
 		padding-top: 70upx;
-		display: flex;
-		justify-content: center;
 	}
 	
 </style>

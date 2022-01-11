@@ -71,7 +71,7 @@ class ChatService
 //        $map['act'] = array('$exists'=>true, '$not'=>array('$in'=>array("click", "listview")) );
         $chat_other_data = [];
         $top_data = [];
-        if (count($db_data)) {
+        if (!empty($db_data)) {
             foreach ($db_data as $key => $value) {
                 switch ($value['type']) {
                     case 0:

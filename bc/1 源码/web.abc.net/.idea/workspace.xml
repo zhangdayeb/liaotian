@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="509d6f27-1a82-414d-b609-2ff0c01a9f0a" name="Default Changelist" comment="" />
+    <list default="true" id="509d6f27-1a82-414d-b609-2ff0c01a9f0a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Template/Mobile/Index_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Template/Mobile/Index_index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../im/2 后端 websocket 跟 http api/http/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../im/2 后端 websocket 跟 http api/http/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Template/Mobile/Index_index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="207" column="58" selection-end-line="747" selection-end-column="14" />
+            <state relative-caret-position="124">
+              <caret line="196" column="49" selection-start-line="196" selection-start-column="49" selection-end-line="196" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -82,7 +85,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/phpstudy_pro/WWW/www.test.net" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../im/2 后端 websocket 跟 http api/http" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -115,11 +118,12 @@
       <workItem from="1641454599632" duration="1065000" />
       <workItem from="1641700692109" duration="678000" />
       <workItem from="1641718931742" duration="21000" />
+      <workItem from="1641888091443" duration="344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2852000" />
+    <option name="totallyTimeSpent" value="3196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -207,8 +211,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Template/Mobile/Index_index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="207" column="58" selection-end-line="747" selection-end-column="14" />
+        <state relative-caret-position="124">
+          <caret line="196" column="49" selection-start-line="196" selection-start-column="49" selection-end-line="196" selection-end-column="49" />
         </state>
       </provider>
     </entry>

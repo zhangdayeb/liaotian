@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed952ad8-d688-458a-b89c-db4d6d6e1778" name="Default Changelist" comment="" />
+    <list default="true" id="ed952ad8-d688-458a-b89c-db4d6d6e1778" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../bc/1 源码/web.abc.net/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bc/1 源码/web.abc.net/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bc/1 源码/web.abc.net/Template/Mobile/Index_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bc/1 源码/web.abc.net/Template/Mobile/Index_index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extend/service/ChatService.php" beforeDir="false" afterPath="$PROJECT_DIR$/extend/service/ChatService.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +23,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="291">
               <caret line="131" column="31" selection-start-line="131" selection-start-column="31" selection-end-line="131" selection-end-column="31" />
-              <folding>
-                <element signature="e#2257#9495#0#PHP" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -95,7 +97,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -103,44 +104,11 @@
               <item name="http" type="b2602c69:ProjectViewProjectNode" />
               <item name="http" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="http" type="b2602c69:ProjectViewProjectNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="http" type="b2602c69:ProjectViewProjectNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="im" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="http" type="b2602c69:ProjectViewProjectNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="im" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="http" type="b2602c69:ProjectViewProjectNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="extend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="http" type="b2602c69:ProjectViewProjectNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="extend" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="http" type="b2602c69:ProjectViewProjectNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="route" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,16 +146,18 @@
       <workItem from="1641366399675" duration="748000" />
       <workItem from="1641390612672" duration="34000" />
       <workItem from="1641823555013" duration="2448000" />
+      <workItem from="1641888067954" duration="21000" />
+      <workItem from="1641888437137" duration="605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5284000" />
+    <option name="totallyTimeSpent" value="5910000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26675603" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -404,9 +374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="291">
           <caret line="131" column="31" selection-start-line="131" selection-start-column="31" selection-end-line="131" selection-end-column="31" />
-          <folding>
-            <element signature="e#2257#9495#0#PHP" />
-          </folding>
         </state>
       </provider>
     </entry>

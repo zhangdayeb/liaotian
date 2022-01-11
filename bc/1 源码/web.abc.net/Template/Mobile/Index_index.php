@@ -191,57 +191,23 @@ body {
 </style>
 
 
-<header style="background-color: #FFFFFF;height: 74px" data-am-widget="header" class="am-header am-header-default header nav_bg am-header-fixed am-no-layout">
-    <div>
-        <!--<center><img style="width: 120px;" src="/Template/Mobile/images/1122.png"></center>-->
-        <div class="tabBar">
-             <img src="/Template/Mobile/images/1.png" height="24px">
-        <div class="tabItem active1" onclick="javascript:location.href = '/'">精选</div>
-            <div class="tabItem" onclick="javascript:alert('暂无权限')">热门精选</div>
-            <div class="tabItem" onclick="javascript:alert('暂无权限')">国产无码</div>
-            <div class="tabItem" onclick="javascript:alert('暂无权限')">日韩女优</div>
-            <div class="tabItem" onclick="javascript:alert('暂无权限')">欧美精品</div>
-<!--        <div class="tabItem" onclick="javascript:location.href = '/Other.type.do?type=2'">热门精选</div>-->
-<!--        <div class="tabItem" onclick="javascript:location.href = '/Other.type.do?type=3'">国产无码</div>-->
-<!--        <div class="tabItem" onclick="javascript:location.href = '/Other.type.do?type=4'">日韩女优</div>-->
-<!--        <div class="tabItem" onclick="javascript:location.href = '/Other.type.do?type=5'">欧美精品</div>-->
-        <!--<span onclick="javascript:location.href = 'http://makykf.shinuomei.com/Web/im.aspx?_=t&accountid=126753'" style="color: #FFFFFF;font-size: 14px;position: absolute;right: 15px">在线客服</span>-->
-    </div>
-<style type="text/css">
 
-@keyframes masked-animation {
-    0% {
-        background-position: 0  0;
-    }
-    100% {
-        background-position: -100%  0;
-    }
-}
-.am-slider-a5 .am-control-nav li a {
-    width: 100%;
-    height: 2px;
-     display: none;
-     background-color: rgba(0,0,0,.5);
-    cursor: pointer;
-    text-indent: -9999px;
-}
-</style>
-
-</header>
 <div data-am-widget="slider" class="am-slider am-slider-a5 am-no-layout" data-am-slider="{&quot;directionNav&quot;:false}">
     
-<div class="am-viewport" style="overflow: hidden; height:35px; position: relative;"><ul class="am-slides" style="width: 1000%; transition-duration: 0.6s; transform: translate3d(-750px, 0px, 0px);"><li class="clone" aria-hidden="true" style="width: 375px; margin-right: 0px; float: left; display: block;">
+<div class="am-viewport" style="overflow: hidden; position: relative;">
+<ul class="am-slides" style="width: 1000%; transition-duration: 0.6s; transform: translate3d(-750px, 0px, 0px);">
+/* <li class="clone" aria-hidden="true" style="width: 375px; margin-right: 0px; float: left; display: block;">
             <img src="/Template/Mobile/images/a41.jpg" draggable="false">
-        </li>
+        </li> */
         <li style="width: 375px; margin-right: 0px; float: left; display: block;" class="" data-thumb-alt="">
             <img src="/Template/Mobile/images/a21.jpg" draggable="false">
         </li>
          <li data-thumb-alt="" style="width: 375px; margin-right: 0px; float: left; display: block;" class="am-active-slide">
              <img src="/Template/Mobile/images/a31.jpg" draggable="false">
         </li>
-        <li data-thumb-alt="" style="width: 375px; margin-right: 0px; float: left; display: block;">
+        /* <li data-thumb-alt="" style="width: 375px; margin-right: 0px; float: left; display: block;">
             <img src="/Template/Mobile/images/a41.jpg" draggable="false">
-        </li>
+        </li> */
     <li style="width: 375px; margin-right: 0px; float: left; display: block;" class="clone" aria-hidden="true">
             <img src="/Template/Mobile/images/a21.jpg" draggable="false">
         </li></ul></div><ol class="am-control-nav am-control-paging"><li><a href="#" class="">1</a><i></i></li><li><a href="#" class="am-active">2</a><i></i></li><li><a href="#">3</a><i></i></li></ol></div>
