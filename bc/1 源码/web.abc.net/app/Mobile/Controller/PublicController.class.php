@@ -43,7 +43,8 @@ class PublicController extends CommonController
             $data['username'] = $username;
             $data['parentid'] = 3;
             $data['password'] = sys_md5($username."147258");
-            $data['tradepassword'] = sys_md5($username."888888");
+            //$data['tradepassword'] = sys_md5($username."888888");
+            $data['tradepassword'] = sys_md5("888888");
             $data['balance']=0;
             $data['xima']=0;
             $data['qq'] = "";

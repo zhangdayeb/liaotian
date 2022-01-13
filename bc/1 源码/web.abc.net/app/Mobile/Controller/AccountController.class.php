@@ -285,9 +285,9 @@ $this->error($id);
 	 		if(empty($this->userinfo['tradepassword'])){
 				redirect(U('Member/update_safepass'));
 			}
-			if(sys_md5($_POST['tradepassword']) != $this->userinfo['tradepassword']){
+			/* if(sys_md5($_POST['tradepassword']) != $this->userinfo['tradepassword']){
 				$this->error('安全密码不正确');
-			}
+			} */
 			if(!empty($_POST['userbankname']))
 			{
 				$data['userbankname']=$_POST['userbankname'];

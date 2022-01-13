@@ -43,6 +43,10 @@ class IndexController extends CommonController {
 		$this->assign('cplist2',$cplist2);
 		$this->display();
 	}
+	
+	function video(){
+        $this->display();
+    }
 
 }
 ?>

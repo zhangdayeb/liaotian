@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed952ad8-d688-458a-b89c-db4d6d6e1778" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../1 前端 uniapp/9.im/static/theme/default/app.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../1 前端 uniapp/9.im/static/theme/default/app.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../1 前端 uniapp/9.im/static/theme/default/app_v2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../1 前端 uniapp/9.im/static/theme/default/login.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../1 前端 uniapp/9.im/static/theme/default/login.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../1 前端 uniapp/9.im/static/theme/default/login_v2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/im/controller/Get.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/im/controller/Get.php" afterDir="false" />
-    </list>
+    <list default="true" id="ed952ad8-d688-458a-b89c-db4d6d6e1778" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/im/controller/Get.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="194" column="94" selection-start-line="194" selection-start-column="94" selection-end-line="194" selection-end-column="94" />
+            <state relative-caret-position="607">
+              <caret line="209" column="54" lean-forward="true" selection-start-line="201" selection-start-column="33" selection-end-line="209" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -119,49 +113,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="http" type="b2602c69:ProjectViewProjectNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="http" type="b2602c69:ProjectViewProjectNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="http" type="b2602c69:ProjectViewProjectNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="im" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="http" type="b2602c69:ProjectViewProjectNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="im" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="http" type="b2602c69:ProjectViewProjectNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="im" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../bc/1 源码/web.abc.net" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -195,18 +154,17 @@
       <workItem from="1641823555013" duration="2448000" />
       <workItem from="1641888067954" duration="21000" />
       <workItem from="1641888437137" duration="605000" />
-      <workItem from="1642078817942" duration="525000" />
+      <workItem from="1642078817942" duration="913000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6435000" />
+    <option name="totallyTimeSpent" value="6823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27010724" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27010724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -428,8 +386,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/im/controller/Get.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="194" column="94" selection-start-line="194" selection-start-column="94" selection-end-line="194" selection-end-column="94" />
+        <state relative-caret-position="607">
+          <caret line="209" column="54" lean-forward="true" selection-start-line="201" selection-start-column="33" selection-end-line="209" selection-end-column="54" />
         </state>
       </provider>
     </entry>

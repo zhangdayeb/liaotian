@@ -17,6 +17,13 @@ class ApijiekouController extends \Common\Controller\ApijiekouController {
 		echo jsonreturn($Result);
 	}
 	
+	public function xuanmeiData(){
+        $key = I('key');
+        $data = xuanmei($key);
+        echo json_encode($data);
+        exit();
+    }
+	
 	function test(){
        /*$sessionid = session('member_sessionid');
 	    $auth_id   = session('member_auth_id');
