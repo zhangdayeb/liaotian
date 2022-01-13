@@ -192,7 +192,7 @@ class Get
         $post_data = Request::post();
         $data = [];
         if (!isset($post_data['friend']) || $post_data['friend']) {
-            $db_data = Friend::field('friend_id,remarks')->where('user_id', USER_ID)->limit(100)->select()->toArray();
+            $db_data = Friend::field('friend_id,remarks')->where('user_id', USER_ID)->limit(1000)->select()->toArray();
             $char_array = [];
             if (count($db_data)) {
                 foreach ($db_data as $key => $value) {
