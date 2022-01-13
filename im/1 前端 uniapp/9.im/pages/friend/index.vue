@@ -323,6 +323,18 @@ export default {
       this.touchmove = false;
       //this.touchmoveIndex = -1;
     },
+	search(keyword){
+		this.keyword = keyword.trim();
+		let _this = this;
+		if (!keyword) {
+			console.log(_this.search_list)
+			_this.list_data = _this.search_list;
+			return true;
+		}
+		_get.searchFriends({ 'keyword': keyword }, function (data) {
+			_this.list_data = data.data;
+		})
+	}
   },
   watch: {
 
