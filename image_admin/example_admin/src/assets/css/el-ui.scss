@@ -1,0 +1,59 @@
+// 优化element 组件样式
+
+.el-popover {
+  min-width: 80px;
+}
+
+.el-dialog__header {
+  padding: 15px 20px;
+  border-bottom: 1px solid #F0F0F0;
+}
+
+.el-dialog__footer {
+  padding: 15px 20px;
+  border-top: 1px solid #F0F0F0;
+}
+
+.el-message {
+  min-width: 220px !important;
+  padding: 11px 16px !important;
+  box-shadow: 0 1px 6px rgba(0,0,0,.2);
+  background: #fff;
+  border-radius: 4px;
+  border: 0;
+
+  .el-message__icon {
+    font-size: 16px;
+  }
+
+  .el-icon-success {
+    color: #1BBE6C;
+  }
+
+  p {
+    color: #515a6e !important;
+  }
+}
+
+// 处理移动端组件兼容性
+@media screen and (max-width: $device-phone){
+  .el-message-box,
+  .el-message,
+  .el-dialog {
+    width: calc(100% - 24px) !important;
+  }
+
+  .el-date-picker.has-sidebar.has-time {
+    width: calc(100% - 24px);
+    left: 12px !important;
+  }
+
+  .el-picker-panel *[slot=sidebar], .el-picker-panel__sidebar {
+    display: none;
+  }
+
+  .el-picker-panel *[slot=sidebar] + .el-picker-panel__body, 
+  .el-picker-panel__sidebar + .el-picker-panel__body {
+    margin-left: 0;
+  }
+}

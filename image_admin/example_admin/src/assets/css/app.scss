@@ -1,0 +1,28 @@
+// 全局样式
+
+.btn-icon {
+  font-size: 10px;
+}
+
+.el-btn-red {
+  color: #FA6962 !important;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
+}
+
+// 处理移动端组件兼容性
+@media screen and (max-width: $device-phone){
+  * {
+    cursor: default !important;
+  }
+
+  .el-col2 {
+    margin-top: 15px;
+  }
+}

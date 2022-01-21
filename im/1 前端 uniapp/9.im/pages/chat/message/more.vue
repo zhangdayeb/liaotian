@@ -165,7 +165,8 @@
 							<image src="/static/theme/default/guanliyuan.png"  v-show="val.is_admin == 1"></image>
 						</view>
 						<view class="item-right-text">
-							{{val.is_online == 1 ? '在线' : '离线'}}
+							{{val.is_online == 1 ? '在线' : '在线'}}
+							<!-- '在线' : '离线' -->
 						</view>
 					</view>
 				</view>

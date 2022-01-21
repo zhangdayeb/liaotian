@@ -105,39 +105,106 @@ class Message
         /** 这里通知其他对象 */
         $user_ids = [];
 
-        foreach ($member as $value) {
-            if (USER_ID != $value['user_id']) {
-                ChatList::where([
-                    'list_id' => $post_data['list_id'],
-                    'user_id' => ($value['user_id'] * 1),
-                ])
-                    ->setInc('no_reader_num', 1);
+        if($chat_list->type == 0){
+            $otherId = 0;
+            foreach ($member as $value){
+                if (USER_ID != $value['user_id']) {
+                    $otherId = $value['user_id'];
+                }
             }
-            array_push($user_ids,$value['user_id']);
-            $user_info = UserService::getUserInfo(USER_ID);
+            foreach ($member as $value) {
+                if (USER_ID != $value['user_id']) {
+                    ChatList::where([
+                        'list_id' => $post_data['list_id'],
+                        'user_id' => ($value['user_id'] * 1),
+                    ])
+                        ->setInc('no_reader_num', 1);
+                    array_push($user_ids,$value['user_id']);
+                    $user_info = UserService::getUserInfo(USER_ID);
 
 
-            $face = $user_info['face'];
+                    $face = $user_info['face'];
+                    /** 发送通知 */
+                    SendData::sendToUid($value['user_id'], 'chatData', [
+                        'list_id' => $post_data['list_id'],
+                        'data' => [
+                            'type' => 0,
+                            'msg' => [
+                                'id' => $chat_obj->id,
+                                'type' => $post_data['content_type'],
+                                'time' => time(),
+                                'user_info' => [
+                                    'uid' => $otherId,
+                                    'name' => $user_info['nickname'],
+                                    'face' => $face,
+                                ],
+                                'content' => $post_data['content'],
+                                'is_niming'=>$is_niming
+                            ],
+                        ]
+                    ]);
+                }else{
+                    array_push($user_ids,$value['user_id']);
+                    $user_info = UserService::getUserInfo($otherId);
 
-            /** 发送通知 */
-            SendData::sendToUid($value['user_id'], 'chatData', [
-                'list_id' => $post_data['list_id'],
+
+                    $face = $user_info['face'];
+                    /** 发送通知 */
+                    SendData::sendToUid($value['user_id'], 'chatData', [
+                        'list_id' => $post_data['list_id'],
+                        'data' => [
+                            'type' => 0,
+                            'msg' => [
+                                'id' => $chat_obj->id,
+                                'type' => $post_data['content_type'],
+                                'time' => time(),
+                                'user_info' => [
+                                    'uid' => USER_ID,
+                                    'name' => $user_info['nickname'],
+                                    'face' => $face,
+                                ],
+                                'content' => $post_data['content'],
+                                'is_niming'=>$is_niming
+                            ],
+                        ]
+                    ]);
+                }
+            }
+        }else{
+            foreach ($member as $value) {
+                if (USER_ID != $value['user_id']) {
+                    ChatList::where([
+                        'list_id' => $post_data['list_id'],
+                        'user_id' => ($value['user_id'] * 1),
+                    ])
+                        ->setInc('no_reader_num', 1);
+                }
+                array_push($user_ids,$value['user_id']);
+                $user_info = UserService::getUserInfo(USER_ID);
+
+
+                $face = $user_info['face'];
+
+                /** 发送通知 */
+                SendData::sendToUid($value['user_id'], 'chatData', [
+                    'list_id' => $post_data['list_id'],
                     'data' => [
-                    'type' => 0,
-                    'msg' => [
-                        'id' => $chat_obj->id,
-                        'type' => $post_data['content_type'],
-                        'time' => time(),
-                        'user_info' => [
-                            'uid' => USER_ID,
-                            'name' => $user_info['username'],
-                            'face' => $face,
+                        'type' => 0,
+                        'msg' => [
+                            'id' => $chat_obj->id,
+                            'type' => $post_data['content_type'],
+                            'time' => time(),
+                            'user_info' => [
+                                'uid' => USER_ID,
+                                'name' => $user_info['nickname'],
+                                'face' => $face,
+                            ],
+                            'content' => $post_data['content'],
+                            'is_niming'=>$is_niming
                         ],
-                        'content' => $post_data['content'],
-                        'is_niming'=>$is_niming
-                    ],
-                ]
-            ]);
+                    ]
+                ]);
+            }
         }
         ChatList::where(['list_id'=>$post_data['list_id'],'user_id'=>USER_ID])->update(['last_chat_time'=>time()]);
         QueueService::AfterSendMsg([
@@ -379,9 +446,9 @@ class Message
         }
 
         if (!ChatMember::where([
-            'user_id' => USER_ID,
-            'list_id' => $post_data['list_id'],
-        ] && !isset($post_data['add_type']))
+                'user_id' => USER_ID,
+                'list_id' => $post_data['list_id'],
+            ] && !isset($post_data['add_type']))
             ->find()) {
             $return_data['msg'] = '您不在该群!';
             return json($return_data);
@@ -1246,7 +1313,7 @@ class Message
             'err' => 1,
             'msg' => 'fail',
         ];
-		//判断是否只有客户账号可以创建群聊
+        //判断是否只有客户账号可以创建群聊
         $config = BsysConfig::getAllVal('basic_config');
         if($config['user_create_group'] == 1){
             //判断当前账号是否客服账号
@@ -1444,8 +1511,8 @@ class Message
 
         /** 通知群所有人新成员的加入 */
         $member_count = count($chat_user_ids) - 1; //扣除机器人的数量
-       $group = ChatGroup::where(['list_id'=>$group_apply_data->list_id])->find();
-       if(!$group) return json(['err'=>1,'msg'=>'该群不存在或已解散']);
+        $group = ChatGroup::where(['list_id'=>$group_apply_data->list_id])->find();
+        if(!$group) return json(['err'=>1,'msg'=>'该群不存在或已解散']);
         foreach ($chat_user_ids as $user_id) {
             SendData::sendToUid($user_id, 'chatData', $msg);
             SendData::sendToUid($user_id, 'setMessagePageTitle', ['list_id'=>$group_apply_data->list_id,'show_name'=>$group['name']."($member_count)"]);
@@ -1607,8 +1674,8 @@ class Message
     }
 
     /**
-    * 查看群成员
-    */
+     * 查看群成员
+     */
     public function speekChecked(){
         $post_data = Request::post(); //user_id
         if (!(ChatGroup::where([
@@ -1702,49 +1769,49 @@ class Message
         if(in_array(1,$post_data['users'])) return json(JsonDataService::fail('群通知机器人不能退出!'));
         $last_user_ids = array_diff($user_ids, $post_data['users']);
 
-            $user_id = USER_ID* 1;
-            /** 删除会话列表 */
-            ChatList::where([
-                'user_id' => $user_id,
+        $user_id = USER_ID* 1;
+        /** 删除会话列表 */
+        ChatList::where([
+            'user_id' => $user_id,
+            'list_id' => $post_data['list_id'],
+        ])->delete();
+        /** 删除成员列表 */
+        ChatMember::where([
+            'list_id' => $post_data['list_id'],
+            'user_id' => $user_id,
+        ])->delete();
+        $content = [
+            'text' => User::get($user_id)->nickname .'退出了群聊',
+        ];
+        /** 增加一条系统消息 */
+        $chat_obj = Chat::createChatMsg([
+            'list_id' => $post_data['list_id'],
+            'user_id' => 0,
+            'content_type' => 0,
+            'msg_type' => 1,
+            'content' => $content,
+            'time' => time(),
+        ]);
+        /** 重新获取列表 */
+        SendData::sendToUid($user_id, 'getChatList');
+        /** 通知还在群里的成员 */
+        foreach ($last_user_ids as $is_user_id) {
+            SendData::sendToUid($is_user_id, 'chatData', [
                 'list_id' => $post_data['list_id'],
-            ])->delete();
-            /** 删除成员列表 */
-            ChatMember::where([
-                'list_id' => $post_data['list_id'],
-                'user_id' => $user_id,
-            ])->delete();
-            $content = [
-                'text' => User::get($user_id)->nickname .'退出了群聊',
-            ];
-            /** 增加一条系统消息 */
-            $chat_obj = Chat::createChatMsg([
-                'list_id' => $post_data['list_id'],
-                'user_id' => 0,
-                'content_type' => 0,
-                'msg_type' => 1,
-                'content' => $content,
-                'time' => time(),
-            ]);
-            /** 重新获取列表 */
-            SendData::sendToUid($user_id, 'getChatList');
-            /** 通知还在群里的成员 */
-            foreach ($last_user_ids as $is_user_id) {
-                SendData::sendToUid($is_user_id, 'chatData', [
-                    'list_id' => $post_data['list_id'],
-                    'data' => [
-                        'type' => 1,
-                        'msg' => [
-                            'user_info' => [
-                                'uid' => 0,
-                            ],
-                            'id' => $chat_obj->id,
-                            'type' => 0,
-                            'content' => $content,
-                            'time' => time(),
+                'data' => [
+                    'type' => 1,
+                    'msg' => [
+                        'user_info' => [
+                            'uid' => 0,
                         ],
-                    ]
-                ]);
-            }
+                        'id' => $chat_obj->id,
+                        'type' => 0,
+                        'content' => $content,
+                        'time' => time(),
+                    ],
+                ]
+            ]);
+        }
         sort($last_user_ids);
         /** 更新这条会话成员 */
         ChatList::where('list_id', $post_data['list_id'])->update(['user_ids' => json_encode($last_user_ids)]);

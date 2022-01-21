@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="509d6f27-1a82-414d-b609-2ff0c01a9f0a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Mobile/Controller/AccountController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mobile/Controller/AccountController.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Mobile/Controller/ApijiekouController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mobile/Controller/ApijiekouController.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Mobile/Controller/IndexController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mobile/Controller/IndexController.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Mobile/Controller/PublicController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mobile/Controller/PublicController.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../im/2 后端 websocket 跟 http api/http/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../im/2 后端 websocket 跟 http api/http/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="509d6f27-1a82-414d-b609-2ff0c01a9f0a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Mobile/Controller/MemberController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="10416">
               <caret line="372" column="22" selection-start-line="372" selection-start-column="13" selection-end-line="372" selection-end-column="22" />
             </state>
           </provider>
@@ -88,6 +82,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,13 +112,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/phpstudy_pro/WWW/api.dianji.net/v2.1 百家乐 龙虎 现场台 牛牛 三公 微服务 版本/common_api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -158,16 +152,17 @@
       <workItem from="1641718931742" duration="21000" />
       <workItem from="1641888091443" duration="344000" />
       <workItem from="1642079736652" duration="697000" />
+      <workItem from="1642124818315" duration="616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3893000" />
+    <option name="totallyTimeSpent" value="4509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27010724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -248,17 +243,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Mobile/Controller/MemberController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="372" column="22" selection-start-line="372" selection-start-column="13" selection-end-line="372" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Mobile/Controller/PublicController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="477">
           <caret line="46" column="45" lean-forward="true" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mobile/Controller/MemberController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10416">
+          <caret line="372" column="22" selection-start-line="372" selection-start-column="13" selection-end-line="372" selection-end-column="22" />
         </state>
       </provider>
     </entry>

@@ -210,10 +210,11 @@ export default {
       action_list_data.top = 0;
       action_list_data.top_time = 0;
       action_list_data.type = data.data.type;
+	  console.log(action_list_data);
       let chat_list =  _data.localData('chat_list');
       chat_list.splice(0,0,action_list_data);
       //排序首选根据top排序，然后根据time排序
-	  chat_list = chat_list.slice(0,30);
+	  chat_list = chat_list.slice(0,1000);
       chat_list.sort((x,y)=>{
         if(x.top == y.top){
           y.time - x.time;
@@ -227,7 +228,7 @@ export default {
     /** 在有这条对话的缓存数据情况下 */
     if (chat_data) {
       chat_data.list.push(data.data);
-      chat_data.list = chat_data.list.slice(-15);
+      chat_data.list = chat_data.list.slice(-1000);
       _data.localData(data.list_id, chat_data);
       /** 如果在与对方的对话界面,发送数据到页面显示 */
       if (_data.localData('message_list_id') == data.list_id) {

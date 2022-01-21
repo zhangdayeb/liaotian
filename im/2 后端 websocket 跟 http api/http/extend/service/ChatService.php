@@ -176,7 +176,7 @@ class ChatService
         $gte:大于或等于
         $lte:小于或等于
          */
-        $limit = 15;
+        $limit = 1000;
         $mongo_chat_list= MongoObj::init('chat_list');
         $where = [
             'status' => 0,
@@ -196,7 +196,7 @@ class ChatService
                 'last_chat_time'=>1,
             ],
             'sort' => ['top'=>-1,'last_chat_time' => -1],
-             'limit'=>$limit
+            'limit'=>$limit
         ]);
         $db_data = $db_data->toArray();
         $list = [];
