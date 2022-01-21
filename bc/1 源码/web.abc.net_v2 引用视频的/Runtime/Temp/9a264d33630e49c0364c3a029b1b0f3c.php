@@ -1,0 +1,3 @@
+<?php
+//000000000300a:1:{i:0;a:11:{s:2:"id";s:2:"33";s:7:"paytype";s:7:"linepay";s:12:"paytypetitle";s:30:"中国光大银行成都分行";s:6:"ftitle";s:30:"中国光大银行成都分行";s:8:"minmoney";s:4:"0.00";s:8:"maxmoney";s:9:"500000.00";s:6:"remark";s:18:"请联系派单员";s:7:"configs";s:106:"a:4:{s:8:"bankname";s:6:"张三";s:8:"bankcode";s:9:"123456789";s:5:"isewm";s:2:"-1";s:6:"ewmurl";s:0:"";}";s:8:"isonline";s:2:"-1";s:9:"listorder";s:1:"1";s:5:"state";s:1:"1";}}
+?>
