@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed952ad8-d688-458a-b89c-db4d6d6e1778" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../bc/1 源码/web.abc.net/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bc/1 源码/web.abc.net/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../1 前端 uniapp/9.im/common/_onSocket.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../1 前端 uniapp/9.im/common/_onSocket.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../1 前端 uniapp/9.im/pages/chat/message/more.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../1 前端 uniapp/9.im/pages/chat/message/more.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/im/controller/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/im/controller/Message.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extend/service/ChatService.php" beforeDir="false" afterPath="$PROJECT_DIR$/extend/service/ChatService.php" afterDir="false" />
-    </list>
+    <list default="true" id="ed952ad8-d688-458a-b89c-db4d6d6e1778" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,20 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/extend/service/ChatService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="349" column="1" selection-start-line="349" selection-start-column="1" selection-end-line="349" selection-end-column="1" />
+            <state relative-caret-position="4238">
+              <caret line="345" column="22" lean-forward="true" selection-start-line="345" selection-start-column="22" selection-end-line="345" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/im/controller/Message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="1831" selection-start-line="1831" selection-end-line="1831" />
+            <state relative-caret-position="289">
+              <caret line="1820" column="5" lean-forward="true" selection-end-line="1831" />
             </state>
           </provider>
         </entry>
@@ -195,16 +188,15 @@
       <workItem from="1641888067954" duration="21000" />
       <workItem from="1641888437137" duration="605000" />
       <workItem from="1642078817942" duration="913000" />
-      <workItem from="1642769484532" duration="716000" />
+      <workItem from="1642769484532" duration="1213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7539000" />
+    <option name="totallyTimeSpent" value="8036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27345845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -426,17 +418,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/extend/service/ChatService.php">
+    <entry file="file://$PROJECT_DIR$/app/im/controller/Message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="349" column="1" selection-start-line="349" selection-start-column="1" selection-end-line="349" selection-end-column="1" />
+        <state relative-caret-position="289">
+          <caret line="1820" column="5" lean-forward="true" selection-end-line="1831" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/im/controller/Message.php">
+    <entry file="file://$PROJECT_DIR$/extend/service/ChatService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="1831" selection-start-line="1831" selection-end-line="1831" />
+        <state relative-caret-position="4238">
+          <caret line="345" column="22" lean-forward="true" selection-start-line="345" selection-start-column="22" selection-end-line="345" selection-end-column="22" />
         </state>
       </provider>
     </entry>
