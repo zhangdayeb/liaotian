@@ -76,7 +76,18 @@
 				</view>
 				<view class="list-member-count">
 				</view>
-
+				<view class="uni-list-cell"  v-if="data.is_action" @tap="manarger('notice')">
+					<view class="uni-list-cell-navigate uni-navigate-right">
+						<view class="qun-gonggao">
+							<text  class="msg-size">群管理</text>
+							<view class="show_text_ msg-size"></view>
+						</view>
+					</view>
+				</view>
+			</view>
+			<view class="list-member-count">
+			</view>
+			<view class="uni-list" style="display: block;">
 				<view class="uni-list-cell" @tap="goGroupQrcode">
 					<view class="uni-media-list uni-list-cell-navigate uni-navigate-right">
 						<text  class="msg-size">群二维码</text>
@@ -85,20 +96,11 @@
 						</view>
 					</view>
 				</view>
-
-				<view class="uni-list-cell" @tap="goSet('notice')">
+				<view @tap="goSet('notice')" style="overflow: hidden; display: block;">
 					<view class="uni-list-cell-navigate uni-navigate-right">
-						<view class="qun-gonggao">
+						<view class="qun-gonggao" style="display: block; height: auto;">
 							<text  class="msg-size">群公告</text>
 							<view class="show_text_ msg-size">{{data.group.notice}}</view>
-						</view>
-					</view>
-				</view>
-				<view class="uni-list-cell"  v-if="data.is_action" @tap="manarger('notice')">
-					<view class="uni-list-cell-navigate uni-navigate-right">
-						<view class="qun-gonggao">
-							<text  class="msg-size">群管理</text>
-							<view class="show_text_ msg-size"></view>
 						</view>
 					</view>
 				</view>

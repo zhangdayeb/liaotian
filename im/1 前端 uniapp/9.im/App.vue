@@ -10,14 +10,14 @@
             /** 代理客户id */
             agent_id: 1,
             /** http 服务端地址 */
-            //http_url: 'https://api.super1988.vip',
-			http_url: 'https://api.jiuzi998.vip',
+            http_url: 'https://api.super1988.vip',
+			//http_url: 'https://api.jiuzi998.vip',
             /** 静态文件存放地址 */
-			//static_url: 'https://api.super1988.vip',
-			static_url: 'https://api.jiuzi998.vip',
+			static_url: 'https://api.super1988.vip',
+			//static_url: 'https://api.jiuzi998.vip',
             /** socket 服务端地址 */
-            //socket_url: 'wss://wss.super1988.vip',
-			socket_url: 'wss://wss.jiuzi998.vip',
+            socket_url: 'wss://wss.super1988.vip',
+			//socket_url: 'wss://wss.jiuzi998.vip',
             /** socket 连接状态 */
             socket_state: 0,
             /** 好友申请通知 */
