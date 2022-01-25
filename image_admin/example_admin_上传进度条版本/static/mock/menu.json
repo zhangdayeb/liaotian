@@ -1,0 +1,135 @@
+{
+	"code": 200,
+	"data": [
+    {
+      "id": 1,
+      "title": "首页信息",
+      "icon": "\ue6b2",
+      "children": [
+        {
+          "id": 101,
+          "title": "首页信息",
+          "path": "/dashboard/console"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "推广管理",
+      "icon": "\ue61e",
+      "children": [
+        {
+          "id": 201,
+          "title": "推广赚钱",
+          "path": "/extension/make-money"
+        },
+        {
+          "id": 202,
+          "title": "盒子推广",
+          "path": "/extension/box"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "用户管理",
+      "icon": "\ue725",
+      "children": [
+        {
+          "id": 301,
+          "title": "个人设置",
+          "path": "/user/user"
+        },
+        {
+          "id": 302,
+          "title": "余额明细",
+          "path": "/user/balance"
+        },
+        {
+          "id": 303,
+          "title": "提现管理",
+          "path": "/user/withdrawal"
+        },
+        {
+          "id": 304,
+          "title": "角色权限",
+          "path": "/systemset/role"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "系统管理",
+      "icon": "\ue662",
+      "children": [
+        {
+          "id": 401,
+          "title": "分类栏目",
+          "path": "/systemmng/class"
+        },
+        {
+          "id": 402,
+          "title": "域名管理",
+          "path": "/systemmng/domain-name"
+        },
+        {
+          "id": 403,
+          "title": "代理管理",
+          "path": "/systemmng/agent"
+        },
+        {
+          "id": 404,
+          "title": "模板管理",
+          "path": "/systemmng/template"
+        },
+        {
+          "id": 405,
+          "title": "通道配置",
+          "path": "/systemmng/passageway"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "订单管理",
+      "icon": "\ue61c",
+      "children": [{
+          "id": 501,
+          "title": "订单管理",
+          "path": "/order/order"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "系统设置",
+      "icon": "\ue61c",
+      "children": [{
+          "id": 601,
+          "title": "公共资源",
+          "path": "/systemset/public-resource"
+        },{
+          "id": 602,
+          "title": "操作日志",
+          "path": "/systemset/log"
+        },{
+          "id": 603,
+          "title": "系统配置",
+          "path": "/systemset/setting"
+        },{
+          "id": 604,
+          "title": "角色管理",
+          "path": "/systemset/role"
+        },{
+          "id": 605,
+          "title": "菜单规则",
+          "path": "/systemset/menu"
+        },{
+          "id": 606,
+          "title": "附件管理",
+          "path": "/systemset/enclosure"
+        }
+      ]
+    }
+  ]
+}
